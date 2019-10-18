@@ -1,0 +1,30 @@
+body {
+   /* height: 300px; */
+   /* padding-top: 60px; */
+   height: 100%;
+   width: 100%;
+}
+
+.navbar {
+   /* background: none; */
+}
+
+#sea_green {
+   display: block;
+   /* max-height: 230px; */
+   width: 100%;
+   height: auto;
+}
+
+.sea-green {
+   background-image: url("assets/img/Sea\ w\ green\ foreground.JPG");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   height: 25rem;
+}
+
+* {
+   /* outline: 1px solid red; */
+   outline-offset: -1px;
+}
