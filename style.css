@@ -7,6 +7,7 @@ body {
 
 .navbar {
    /* background: none; */
+   background-color: rgba(120, 155, 155, 0.2);
 }
 
 #sea_green {
@@ -16,12 +17,29 @@ body {
    height: auto;
 }
 
+/* Center collapsed navbar items */
+.navbar-collapse {
+   text-align: center;
+}
+
+/* Navbar title */
+.navbar-brand {
+   font-size: 20px;
+}
+
+
+/* Background image */
 .sea-green {
    background-image: url("assets/img/Sea\ w\ green\ foreground.JPG");
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
-   height: 25rem;
+   height: 20rem;
+}
+
+/* Carosel and Amenities */
+#carousel-and-amenities {
+   margin-top: 10px;
 }
 
 * {
