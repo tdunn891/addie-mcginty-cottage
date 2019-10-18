@@ -1,3 +1,7 @@
+html {
+   scroll-behavior: smooth;
+}
+
 body {
    /* height: 300px; */
    /* padding-top: 60px; */
@@ -20,6 +24,8 @@ body {
 /* Center collapsed navbar items */
 .navbar-collapse {
    text-align: center;
+   /* background-color: rgba(255, 255, 255, 0.8); */
+   /* color: white; */
 }
 
 /* Navbar title */
@@ -34,15 +40,40 @@ body {
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
-   height: 20rem;
+   height: 16rem;
 }
 
 /* Carosel and Amenities */
-#carousel-and-amenities {
-   margin-top: 10px;
+/* #the_cottage { */
+   /* margin-top: 10px; */
+/* } */
+
+.container-fluid {
+   margin-bottom: 12px;
+}
+
+/* Footer */
+
+footer {
+   background-color:grey;
+   color: white;
+}
+
+/* #carouselFade {
+   max-height: 50%;
+} */
+
+/* #the_cottage {
+   max-height: 250px;
+} */
+
+.carousel-item img {
+   /* max-height: 50vh; */
+   min-width: auto;
+   /* object-fit: contain; */
 }
 
 * {
-   /* outline: 1px solid red; */
+   outline: 1px solid red;
    outline-offset: -1px;
 }

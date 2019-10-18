@@ -24,17 +24,20 @@
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
          <ul class="navbar-nav">
-            <li class="nav-item active">
+            <li class="nav-item smooth-scroll active">
                <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-               <a class="nav-link" href="#">THE COTTAGE</a>
+            <li class="nav-item smooth-scroll">
+               <a class="nav-link" href="#the_cottage">THE COTTAGE</a>
             </li>
-            <li class="nav-item">
-               <a class="nav-link" href="#">EXPLORE</a>
+            <li class="nav-item smooth-scroll">
+               <a class="nav-link" href="#explore">EXPLORE</a>
             </li>
-            <li class="nav-item">
-               <a class="nav-link" href="#">CONTACT</a>
+            <li class="nav-item smooth-scroll">
+               <a class="nav-link" href="#contact">CONTACT</a>
+            </li>
+            <li class="nav-item smooth-scroll">
+               <button class="nav-link">BOOK</button>
             </li>
          </ul>
       </div>
@@ -51,9 +54,9 @@
    </div>
 
    <!-- Carousel for House Images -->
-   <div class="container-fluid" id="carousel-and-amenities">
+   <div class="container-fluid" id="the_cottage">
       <div class="row">
-         <div class="col-md">
+         <div class="col-md-5">
             <div id="carouselFade" class="carousel slide carousel-fade" data-ride="carousel">
                <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -82,11 +85,59 @@
                </a>
             </div>
          </div>
-         <div class="col-md">
+         <div class="col-md-7">
+            <h3>The Cottage</h3>
             <p>Stay in one of Robe's unique cottages</p>
+
          </div>
       </div>
    </div>
+
+   <!-- Location / Explore -->
+   <div class="container-fluid" id="explore">
+      <div class="row">
+         <div class="col-md-5">
+            <h3>Explore</h3>
+            <p>5 minute walk to beach</p>
+         </div>
+         <div class="col-md-7">
+            <iframe
+               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19065.09294343462!2d139.7597633673747!3d-37.17008325906781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ab54798b0e2c05f%3A0x88ea474ac4de0b82!2sAddie%20McGinty&#39;s%20Cottage!5e0!3m2!1sen!2sie!4v1571410650953!5m2!1sen!2sie"
+               width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+         </div>
+
+      </div>
+   </div>
+
+   <!-- Contact -->
+   <div class="container-fluid" id="contact">
+      <div class="row">
+         <!-- jumbotron form -->
+         <div class="jumbotron">
+            <form>
+               <h3>Contact</h3>
+               <div class="form-group">
+                  <div class="form-question">
+                     <label for="FormControlInput1"></label>
+                     <input type="text" class="form-control" id="FormControlInput1" placeholder="Name">
+                  </div>
+                  <div class="form-question">
+                     <label for="FormControlInput2"></label>
+                     <input type="email" class="form-control" id="FormControlInput2" placeholder="Email">
+                  </div>
+                  <div class="form-question">
+                     <label for="FormControlTextarea1"></label>
+                     <textarea class="form-control" id="FormControlTextarea1" rows="3"
+                        placeholder="Your Enquiry"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary" id="form-submit-btn">Submit</button>
+               </div>
+            </form>
+         </div>
+
+      </div>
+   </div>
+
 
    <!-- Scripts -->
    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -99,5 +150,21 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"></script>
 </body>
+<footer>
+   <div class="container-fluid">
+      <div class="row">
+         <div class="col-md">
+            <h5>Contact</h5>
+         </div>
+         <div class="col-md">
+            <h5>Details</h5>
+            <p>14 Union St<br> Robe, South Australia</p>
+         </div>
+         <div class="col-md">
+            <h5>Social</h5>
+         </div>
+      </div>
+   </div>
+</footer>
 
 </html>
