@@ -37,7 +37,7 @@
                <a class="nav-link" href="#contact">CONTACT</a>
             </li>
             <li class="nav-item smooth-scroll">
-               <button class="nav-link">BOOK</button>
+               <a class="nav-link"><button class="btn btn-primary" id="book-now" type="submit">Make Booking</button></a>
             </li>
          </ul>
       </div>
@@ -54,6 +54,7 @@
    </div>
 
    <!-- Carousel for House Images -->
+
    <div class="container-fluid" id="the_cottage">
       <div class="row">
          <div class="col-md-5">
@@ -112,29 +113,30 @@
    <!-- Contact -->
    <div class="container-fluid" id="contact">
       <div class="row">
-         <!-- jumbotron form -->
-         <div class="jumbotron">
-            <form>
-               <h3>Contact</h3>
-               <div class="form-group">
-                  <div class="form-question">
-                     <label for="FormControlInput1"></label>
-                     <input type="text" class="form-control" id="FormControlInput1" placeholder="Name">
+         <div class="col-md-5">
+            <!-- jumbotron form -->
+            <div class="jumbotron">
+               <form>
+                  <h3>Contact</h3>
+                  <div class="form-group">
+                     <div class="form-question">
+                        <label for="FormControlInput1"></label>
+                        <input type="text" class="form-control" id="FormControlInput1" placeholder="Name">
+                     </div>
+                     <div class="form-question">
+                        <label for="FormControlInput2"></label>
+                        <input type="email" class="form-control" id="FormControlInput2" placeholder="Email">
+                     </div>
+                     <div class="form-question">
+                        <label for="FormControlTextarea1"></label>
+                        <textarea class="form-control" id="FormControlTextarea1" rows="3"
+                           placeholder="Your Enquiry"></textarea>
+                     </div>
+                     <button type="submit" class="btn btn-primary" id="form-submit-btn">Submit</button>
                   </div>
-                  <div class="form-question">
-                     <label for="FormControlInput2"></label>
-                     <input type="email" class="form-control" id="FormControlInput2" placeholder="Email">
-                  </div>
-                  <div class="form-question">
-                     <label for="FormControlTextarea1"></label>
-                     <textarea class="form-control" id="FormControlTextarea1" rows="3"
-                        placeholder="Your Enquiry"></textarea>
-                  </div>
-                  <button type="submit" class="btn btn-primary" id="form-submit-btn">Submit</button>
-               </div>
-            </form>
+               </form>
+            </div>
          </div>
-
       </div>
    </div>
 
