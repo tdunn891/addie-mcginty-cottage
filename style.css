@@ -77,13 +77,53 @@ footer {
    text-align: center;
 } */
 
-/* to offset links by height of navbar */
-div.container-fluid:target {
+/* to offset links by height of navbar. not working */
+a:target {
    display: block;
    position: relative;
    top: -80px; 
    visibility: hidden;
  }
+
+/* font awesome icons */
+/* i.fab {
+   font-size: 20px;
+   height: 20px;
+} */
+
+/* socials list */
+
+.socials-list {
+   padding: 0;
+}
+
+.socials-list li {
+   display: inline;
+   padding: 5px;
+   list-style-type: none;
+   height: 15px;
+   vertical-align: middle;
+}
+
+.socials-list li i {
+   vertical-align: middle;
+}
+
+/* footer headings */
+footer h5 {
+   font-size: 1.2rem;
+   padding: 5px;
+}
+
+#robe-com-au {
+   height: 70px;
+}
+
+.jumbotron {
+   padding: 12px;
+   margin: 1px;
+}
+
 
 * {
    /* outline: 1px solid red; */

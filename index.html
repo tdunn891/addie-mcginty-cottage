@@ -27,16 +27,16 @@
             <li class="nav-item smooth-scroll active">
                <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item smooth-scroll">
-               <a class="nav-link" href="#the_cottage">THE COTTAGE</a>
+            <li class="nav-item smooth-scroll" data-toggle="collapse" data-target=".navbar-collapse.show">
+               <a class="nav-link" href="#the-cottage-anchor">THE COTTAGE</a>
             </li>
-            <li class="nav-item smooth-scroll">
-               <a class="nav-link" href="#explore">EXPLORE</a>
+            <li class="nav-item smooth-scroll" data-toggle="collapse" data-target=".navbar-collapse.show">
+               <a class="nav-link" href="#explore-anchor">EXPLORE</a>
             </li>
-            <li class="nav-item smooth-scroll">
-               <a class="nav-link" href="#contact">CONTACT</a>
+            <li class="nav-item smooth-scroll" data-toggle="collapse" data-target=".navbar-collapse.show">
+               <a class="nav-link" href="#contact-anchor">CONTACT</a>
             </li>
-            <li class="nav-item smooth-scroll">
+            <li class="nav-item smooth-scroll" data-toggle="collapse" data-target=".navbar-collapse.show">
                <a class="nav-link"><button class="btn btn-primary" id="book-now" type="submit">Make Booking</button></a>
             </li>
          </ul>
@@ -54,7 +54,7 @@
    </div>
 
    <!-- Carousel for House Images -->
-
+   <a class="anchor-offset" id="the-cottage-anchor"></a>
    <div class="container-fluid" id="the_cottage">
       <div class="row">
          <div class="col-md-5">
@@ -95,6 +95,7 @@
    </div>
 
    <!-- Location / Explore -->
+   <a class="anchor-offset" id="explore-anchor"></a>
    <div class="container-fluid" id="explore">
       <div class="row">
          <div class="col-md-5">
@@ -111,6 +112,7 @@
    </div>
 
    <!-- Contact -->
+   <a class="anchor-offset" id="contact-anchor"></a>
    <div class="container-fluid" id="contact">
       <div class="row">
          <div class="col-md-5">
@@ -151,6 +153,7 @@
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"></script>
+   <script src="https://kit.fontawesome.com/e1b7ca2f87.js"></script>
 </body>
 <footer>
    <div class="container-fluid">
@@ -161,9 +164,30 @@
          <div class="col-md">
             <h5>Details</h5>
             <p>14 Union St<br> Robe, South Australia</p>
+            <p>+61 3223 5235</p>
          </div>
          <div class="col-md">
             <h5>Social</h5>
+            <ul class="socials-list">
+               <li>
+                  <a href="https://www.facebook.com/robesouthaustralia" target="_blank">
+                     <i class="fab fa-facebook fa-3x">
+                     </i>
+                  </a>
+               </li>
+               <li>
+                  <a href="https://www.instagram.com/robesouthaustralia" target="_blank">
+                     <i class="fab fa-instagram fa-3x"></i>
+                  </a>
+               </li>
+               <li>
+                  <a href="http://www.robe.com.au" target="_blank">
+                     <img
+                        src="https://images.squarespace-cdn.com/content/v1/54029819e4b0c1ca4c511629/1463547391895-M3Z2IRFKFND6OVNSUMT7/ke17ZwdGBToddI8pDm48kHDytfO0HjIP3KkK1uT8a5ZZw-zPPgdn4jUwVcJE1ZvWhcwhEtWJXoshNdA9f1qD7eaDBaxyzPPG4B3J3_Z93rYQdenaKM4gbNVxNGSIjCReiphUl9jXrgJ-GQUYw6fHrw/download1.png?format=750w"
+                        id="robe-com-au" />
+                  </a>
+               </li>
+            </ul>
          </div>
       </div>
    </div>
