@@ -16,8 +16,8 @@
 
    <!-- NAV BAR -->
 
-   <nav class="navbar navbar-expand-md fixed-top navbar-light">
-      <a class="navbar-brand" href="#">Addie McGinty's Cottage</a>
+   <nav class="navbar navbar-expand-md fixed-top navbar-dark">
+      <a class="navbar-brand" href="#">Addie McGinty's Cottage - Robe, South Australia</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
          <span class="navbar-toggler-icon"></span>
@@ -37,7 +37,8 @@
                <a class="nav-link" href="#contact-anchor">CONTACT</a>
             </li>
             <li class="nav-item smooth-scroll" data-toggle="collapse" data-target=".navbar-collapse.show">
-               <a class="nav-link"><button class="btn btn-primary" id="book-now" type="submit">Make Booking</button></a>
+               <a class="nav-link" href="https://www.bookrobeaccommodation.com.au/accommodation/3"
+                  target="_blank"><button class="btn btn-primary" id="book-now" type="submit">BOOK</button></a>
             </li>
          </ul>
       </div>
@@ -88,8 +89,18 @@
          </div>
          <div class="col-md-7">
             <h3>The Cottage</h3>
-            <p>Stay in one of Robe's unique cottages</p>
-
+            <p>Stay in one of Robe's unique cottages.</p>
+            <p>The cosy and charming "Addie McGinty" is situated only 100 meters from Robe's main street, restaurants,
+               shops & cafes and safe swimming beach...</p>
+            <ul class="amenities-list">
+               <li><i class="fas fa-bed"></i>Sleeps 7</li>
+               <li><i class="fas fa-restroom"></i>2 Bathrooms</li>
+               <li><i class="fas fa-wifi"></i>Wifi</li>
+               <li><i class="fas fa-table-tennis"></i>Table Tennis</li>
+               <li><i class="far fa-calendar-alt"></i>Min 2 Nights</li>
+               <li><i class="fas fa-tv"></i>TV</li>
+               <li><i class="fas fa-car-alt"></i>2 Car Parks</li>
+            </ul>
          </div>
       </div>
    </div>
@@ -100,14 +111,14 @@
       <div class="row">
          <div class="col-md-5">
             <h3>Explore</h3>
-            <p>5 minute walk to beach</p>
+            <p>5 minute walk to beach.</p>
+            <p>50 metres from main street.</p>
          </div>
          <div class="col-md-7">
             <iframe
                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19065.09294343462!2d139.7597633673747!3d-37.17008325906781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ab54798b0e2c05f%3A0x88ea474ac4de0b82!2sAddie%20McGinty&#39;s%20Cottage!5e0!3m2!1sen!2sie!4v1571410650953!5m2!1sen!2sie"
                width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
          </div>
-
       </div>
    </div>
 
@@ -116,10 +127,11 @@
    <div class="container-fluid" id="contact">
       <div class="row">
          <div class="col-md-5">
+            <h3>Contact</h3>
             <!-- jumbotron form -->
             <div class="jumbotron">
                <form>
-                  <h3>Contact</h3>
+
                   <div class="form-group">
                      <div class="form-question">
                         <label for="FormControlInput1"></label>
@@ -131,7 +143,7 @@
                      </div>
                      <div class="form-question">
                         <label for="FormControlTextarea1"></label>
-                        <textarea class="form-control" id="FormControlTextarea1" rows="3"
+                        <textarea class="form-control" id="FormControlTextarea1" rows="2"
                            placeholder="Your Enquiry"></textarea>
                      </div>
                      <button type="submit" class="btn btn-primary" id="form-submit-btn">Submit</button>
@@ -139,9 +151,13 @@
                </form>
             </div>
          </div>
+         <div class="col-md-7">
+            <h3>Reviews</h3>
+            <p>"Delightful" - Bob Smith</p>
+            <p>"Great!" - Alison O</p>
+         </div>
       </div>
    </div>
-
 
    <!-- Scripts -->
    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -154,19 +170,31 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"></script>
    <script src="https://kit.fontawesome.com/e1b7ca2f87.js"></script>
+   <script>
+      var selector = '.navbar-nav li';
+      $(selector).on('click', function () {
+         $(selector).removeClass('active');
+         $(this).addClass('active');
+      });
+   </script>
 </body>
 <footer>
    <div class="container-fluid">
       <div class="row">
-         <div class="col-md">
+         <div class="col-md-5">
             <h5>Contact</h5>
+            <a href="https://www.bookrobeaccommodation.com.au/accommodation/3" target="_blank">
+               <img src="assets/img/SAL-Coastal-Holidays.jpg" alt="SAL-Coastal-Holidays-logo" id="SAL-logo" />
+            </a>
+            <p><a href="https://www.bookrobeaccommodation.com.au/accommodation/3" target="_blank">Robe Coastal
+                  Holidays</a><br>Phone: <a href="tel://+61887682158">+61 887 682 158</a><br>
+               Address: PO Box 143, Robe, 5276<br>South Australia</p>
          </div>
-         <div class="col-md">
-            <h5>Details</h5>
-            <p>14 Union St<br> Robe, South Australia</p>
-            <p>+61 3223 5235</p>
+         <div class="col-md-3">
+            <h5>Addie McGinty's Cottage</h5>
+            <p>14 Union St<br>Robe, South Australia<br>+61 3223 5235</p>
          </div>
-         <div class="col-md">
+         <div class="col-md-4">
             <h5>Social</h5>
             <ul class="socials-list">
                <li>

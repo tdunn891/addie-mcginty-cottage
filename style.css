@@ -1,62 +1,90 @@
 html {
-   scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-   /* height: 300px; */
-   /* padding-top: 60px; */
-   height: 100%;
-   width: 100%;
+  /* height: 300px; */
+  /* padding-top: 60px; */
+  height: 100%;
+  width: 100%;
 }
 
 .navbar {
-   /* background: none; */
-   background-color: rgba(120, 155, 155, 0.2);
+  /* background: none; */
+  /* background-color: rgba(120, 155, 155, 0.5); */
+  /* background-color: rgba(51, 60, 55, 0.927); */
+  background-color: rgba(51, 60, 55, 0.8);
+  margin-top: 15px;
 }
 
-#sea_green {
-   display: block;
-   /* max-height: 230px; */
-   width: 100%;
-   height: auto;
+h3 {
+   font-size: 2rem;
+   padding: 5px 5px;
 }
+
+.nav-item a {
+  font-size: 2.3vh;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  /* color: whitesmoke !important; */
+}
+
+/* #sea_green {
+  display: block;
+  max-height: 10vh;
+  width: 100%;
+  /* height: auto; */
+  /* height: 10px; */
+/* } */
 
 /* Center collapsed navbar items */
 .navbar-collapse {
-   text-align: center;
-   /* background-color: rgba(255, 255, 255, 0.8); */
-   /* color: white; */
+  text-align: center;
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  /* color: white; */
 }
 
 /* Navbar title */
 .navbar-brand {
-   font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 3vh;
+  /* color: white; */
 }
-
 
 /* Background image */
 .sea-green {
-   background-image: url("assets/img/Sea\ w\ green\ foreground.JPG");
-   background-repeat: no-repeat;
-   background-position: center;
-   background-size: cover;
-   height: 16rem;
+  background-image: url("assets/img/Sea\ w\ green\ foreground.JPG");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* background-position-y: 1000px; */
+  height: 18vh;
+}
+
+#SAL-logo {
+   max-height: 70px;
+   float: right;
+   /* display: inline-block; */
 }
 
 /* Carosel and Amenities */
 /* #the_cottage { */
-   /* margin-top: 10px; */
+/* margin-top: 10px; */
 /* } */
 
 .container-fluid {
-   margin-bottom: 12px;
+  margin-bottom: 12px;
+}
+
+.amenities-list {
+  list-style: none;
+  padding-left: 0;
 }
 
 /* Footer */
 
 footer {
-   background-color:grey;
-   color: white;
+  background-color: grey;
+  color: white;
 }
 
 /* #carouselFade {
@@ -68,22 +96,26 @@ footer {
 } */
 
 .carousel-item img {
-   /* max-height: 50vh; */
-   min-width: auto;
-   /* object-fit: contain; */
+  /* max-height: 50vh; */
+  min-width: auto;
+  /* object-fit: contain; */
 }
 
+#explore .row {
+   min-height: 40vh;
+   max-height: 50vh;
+}
 /* #book-now {
    text-align: center;
 } */
 
 /* to offset links by height of navbar. not working */
 a:target {
-   display: block;
-   position: relative;
-   top: -80px; 
-   visibility: hidden;
- }
+  display: block;
+  position: relative;
+  top: -80px;
+  visibility: hidden;
+}
 
 /* font awesome icons */
 /* i.fab {
@@ -94,38 +126,57 @@ a:target {
 /* socials list */
 
 .socials-list {
-   padding: 0;
+  padding: 0;
+  float: left;
 }
 
 .socials-list li {
-   display: inline;
-   padding: 5px;
-   list-style-type: none;
-   height: 15px;
-   vertical-align: middle;
+  display: inline;
+  /* padding: 5px; */
+  list-style-type: none;
+  height: 15px;
+  vertical-align: middle;
 }
 
 .socials-list li i {
-   vertical-align: middle;
+  vertical-align: middle;
+  /* color: white;   */
 }
 
 /* footer headings */
 footer h5 {
-   font-size: 1.2rem;
-   padding: 5px;
+  font-size: 1.2rem;
+  padding: 5px;
 }
 
 #robe-com-au {
-   height: 70px;
+  height: 50px;
 }
 
 .jumbotron {
-   padding: 12px;
-   margin: 1px;
+  padding: 12px 12px;
+  /* margin: 10px 10px; */
+  background-color: rgba(51, 60, 55, 0.5);
+border-radius: 0.5rem;
 }
 
+#contact {
+   background-image: url('assets/img/Obelisk\ medium\ distance.JPG');
+   background-repeat: no-repeat;
+   background-position: right;
+   background-size: cover;
+   /* background-position: top; */
+}
+
+.jumbotron .form-group .form-question {
+   /* display: block; */
+   /* padding: 0px; */
+   /* vertical-align: middle; */
+   /* height: 50px; */
+   /* align-items: center; */
+}
 
 * {
-   /* outline: 1px solid red; */
-   outline-offset: -1px;
+  /* outline: 1px solid red; */
+  outline-offset: -1px;
 }
