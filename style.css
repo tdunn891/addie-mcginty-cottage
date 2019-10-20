@@ -9,17 +9,35 @@ body {
   width: 100%;
 }
 
+#robe {
+   font-size: 1.1rem;
+}
+
 .navbar {
   /* background: none; */
   /* background-color: rgba(120, 155, 155, 0.5); */
   /* background-color: rgba(51, 60, 55, 0.927); */
   background-color: rgba(51, 60, 55, 0.8);
-  margin-top: 15px;
+  margin-top: 12px;
+}
+
+/* Media query */
+@media screen and (max-width: 600px) {
+   .navbar {
+      margin-top: 0px;
+   }
+   #robe {
+      display: none;
+   }
 }
 
 h3 {
-   font-size: 2rem;
-   padding: 5px 5px;
+  font-size: 2rem;
+  padding: 5px 5px;
+  margin: 5px 0px;
+  text-align: center;
+  background-color: lightskyblue;
+  color: white;
 }
 
 .nav-item a {
@@ -33,7 +51,7 @@ h3 {
   max-height: 10vh;
   width: 100%;
   /* height: auto; */
-  /* height: 10px; */
+/* height: 10px; */
 /* } */
 
 /* Center collapsed navbar items */
@@ -60,10 +78,22 @@ h3 {
   height: 18vh;
 }
 
+.form-group {
+  /* align-items: center; */
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+#form-submit-btn {
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
 #SAL-logo {
-   max-height: 70px;
-   float: right;
-   /* display: inline-block; */
+  max-height: 70px;
+  float: right;
+  border-radius: 5px;
+  /* display: inline-block; */
 }
 
 /* Carosel and Amenities */
@@ -82,8 +112,8 @@ h3 {
 
 /* Footer */
 
-footer {
-  background-color: grey;
+footer .container-fluid {
+  background-color:grey;
   color: white;
 }
 
@@ -101,9 +131,18 @@ footer {
   /* object-fit: contain; */
 }
 
+.blockquote-footer {
+   color: white;\;
+}
+
+.blockquote {
+   background-color: rgba(2,3,3,0.4);
+   border-radius: 6px;
+}
+
 #explore .row {
-   min-height: 40vh;
-   max-height: 50vh;
+  min-height: 40vh;
+  max-height: 50vh;
 }
 /* #book-now {
    text-align: center;
@@ -155,25 +194,25 @@ footer h5 {
 
 .jumbotron {
   padding: 12px 12px;
-  /* margin: 10px 10px; */
+  margin-bottom: 12px;
   background-color: rgba(51, 60, 55, 0.5);
-border-radius: 0.5rem;
+  border-radius: 0.5rem;
 }
 
 #contact {
-   background-image: url('assets/img/Obelisk\ medium\ distance.JPG');
-   background-repeat: no-repeat;
-   background-position: right;
-   background-size: cover;
-   /* background-position: top; */
+  background-image: url("assets/img/Obelisk\ medium\ distance.JPG");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  /* background-position: top; */
 }
 
 .jumbotron .form-group .form-question {
-   /* display: block; */
-   /* padding: 0px; */
-   /* vertical-align: middle; */
-   /* height: 50px; */
-   /* align-items: center; */
+  /* display: block; */
+  /* padding: 0px; */
+  /* vertical-align: middle; */
+  /* height: 50px; */
+  /* align-items: center; */
 }
 
 * {
