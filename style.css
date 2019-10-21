@@ -3,9 +3,6 @@ html {
 }
 
 body, html {
-  /* height: 300px; */
-  /* padding-top: 60px; */
-  /* height: 100%; */
   width: 100%;
 }
 
@@ -14,15 +11,13 @@ body, html {
 }
 
 .navbar {
-  /* background: none; */
-  /* background-color: rgba(120, 155, 155, 0.5); */
-  /* background-color: rgba(51, 60, 55, 0.927); */
   background-color: rgba(51, 60, 55, 0.8);
   margin-top: 12px;
 }
 
 h3 {
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
+  font-size: 2vw;
   padding: 5px 5px;
   margin: 5px 0px;
   text-align: center;
@@ -37,7 +32,7 @@ h3 {
 .navbar-brand {
    /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
    font-family: 'Crete Round', serif;
-   font-size: 3vh;
+   font-size: 2.2vw;
    /* color: white; */
  }
 
@@ -48,14 +43,14 @@ h3 {
 }
 
 .nav-item a {
-   font-size: 1.3vw;
+   font-size: 1.2vw;
    /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
    font-family: 'Crete Round', serif;
    /* color: whitesmoke !important; */
  }
 
 /* Media query */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
    .navbar {
       margin-top: 0px;
    }
@@ -63,20 +58,15 @@ h3 {
       font-size: 0.9rem;
    } */
    h3 {
-      font-size: 2.2vh;
+      font-size: 5vw;
    }
-   /* .nav-item a {
-      font-size: 1rem;
-   } */
-   /* #book-now {
-      font-size: 0.2rem; */
-   /* } */
+   .navbar-brand {
+      font-size: 4vw;
+   }
    #robe {
       display: none;
    }
 }
-
-
 
 /* #sea_green {
   display: block;
@@ -89,17 +79,11 @@ h3 {
 /* Center collapsed navbar items */
 .navbar-collapse {
   text-align: center;
-  /* background-color: rgba(255, 255, 255, 0.8); */
-  /* color: white; */
 }
 
 .navbar-nav {
    align-items: center;
 }
-
-
-
-
 
 /* Background image */
 .sea-green {
@@ -108,11 +92,7 @@ h3 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  /* background-position-y: -100px; */
-  /* background-position:  */
-  /* background-attachment: fixed; */
-  /* background-position-y: 1000px; */
-  height: 22vh;
+ height: 22vh;
 }
 
 .form-group {
@@ -129,15 +109,8 @@ h3 {
 
 #SAL-logo {
   max-height: 50px;
-  /* float: right; */
   border-radius: 10px;
-  /* display: inline-block; */
 }
-
-/* Carosel and Amenities */
-/* #the_cottage { */
-/* margin-top: 10px; */
-/* } */
 
 .container-fluid {
   margin-bottom: 12px;
@@ -149,33 +122,18 @@ h3 {
 }
 
 /* Footer */
-
 footer .container-fluid {
   /* background-color:grey; */
   color: white;
   background-color: #3d75a4;
 }
 
-/* #carouselFade {
-   max-height: 50%;
-} */
-
-/* #the_cottage {
-   max-height: 250px;
-} */
-
 .carousel-item img {
-  /* max-height: 50vh; */
   min-width: auto;
-  /* object-fit: contain; */
 }
 
 iframe {
-   /* padding-top: 10px; */
    padding-top: 10px;
-   /* padding-bottom: 10px; */
-   /* display: block; */
-   /* padding-bottom: 10px; */
 }
 
 .blockquote-footer {
@@ -189,11 +147,7 @@ iframe {
 
 #explore .row {
   min-height: 40vh;
-  /* max-height: 50vh; */
 }
-/* #book-now {
-   text-align: center;
-} */
 
 /* to offset links by height of navbar. not working */
 a:target {
@@ -203,18 +157,11 @@ a:target {
   visibility: hidden;
 }
 
-/* font awesome icons */
-/* i.fab {
-   font-size: 20px;
-   height: 20px;
-} */
-
 /* socials list */
 
 .socials-list {
   padding: 0;
   margin-top: 8px;
-  /* float: left; */
   text-align: center;
 }
 
@@ -228,25 +175,22 @@ a:target {
 
 .socials-list li a {
   vertical-align: middle;
-  /* color: white;   */
   text-decoration: none;
 }
-
-/* footer headings */
-/* footer h5 {
-  font-size: 1.2rem;
-  padding: 3px;
-} */
 
 #robe-com-au {
   height: 50px;
 }
 
 .jumbotron {
-  padding: 12px 12px;
-  margin-bottom: 12px;
+  padding: 10px 18px;
+  margin: 18px 40px;
   background-color: rgba(51, 60, 55, 0.5);
   border-radius: 0.5rem;
+}
+
+#FormControlInput1, #FormControlInput2 {
+   width: 75%;
 }
 
 #contact {
@@ -266,10 +210,6 @@ a:target {
 
 .footer-content {
    padding-top: 8px;
-
-   /* align-content: center; */
-   /* align-items: center; */
-   /* padding-bottom: 0px; */
 }
 
 .footer-content p {
@@ -303,30 +243,13 @@ a:target {
 
 #addie-branch {
    background-image: url('assets/img/Addie_Sign.JPG');
-   /* background-position: b; */
-   /* background-repeat: no-repeat; */
-   /* background-size: cover; */
-   /* background-attachment: fixed; */
-   /* background-size: 100px; */
-   /* background-size: inherit; */
-   /* height: 40vh; */
    background-position-y: 150px;
-   /* background-position-x: -100px; */
-   /* width: ; */
-   /* background-size: contain; */
-   /* width: 50px; */
-   /* max-width: 50px; */
 }
 
 .jumbotron .form-group .form-question {
-  /* display: block; */
-  /* padding: 0px; */
-  /* vertical-align: middle; */
-  /* height: 50px; */
-  /* align-items: center; */
 }
 
-.fab {
+.fab, .fas {
    color: whitesmoke;
    /* font-size: 90px; */
 }
@@ -335,11 +258,9 @@ a:target {
    color: grey;
 }
 
-/* .box {
-   width: 200px;
-   height: 200px;
-   display: block !important;
-} */
+.fas:hover {
+   color: grey;
+}
 
 * {
   outline: 1px solid red;
