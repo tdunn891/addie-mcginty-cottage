@@ -221,6 +221,12 @@ footer h5 {
   /* background-position: top; */
 }
 
+#price {
+   /* float: center; */
+   font-style: italic;
+   font-size: 13px;
+}
+
  .parallax {
    /* The image used */
   /* background-image: url("assets/img/Obelisk\ medium\ distance.JPG"); */
@@ -244,6 +250,6 @@ footer h5 {
 }
 
 * {
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
   outline-offset: -1px;
 }

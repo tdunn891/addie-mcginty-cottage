@@ -18,8 +18,11 @@
 
    <!-- NAV BAR -->
    <nav class="navbar navbar-expand-md fixed-top navbar-dark">
-      <a class="navbar-brand" href="#">Addie McGinty's Cottage<br><span id="robe">Limestone Coast | Robe, South
-            Australia</span></a>
+      <a class="navbar-brand" href="#"><img src="assets/img/Obelisk.png" id="obelisk-nav-logo" width="50" height="50"
+            class="d-inline-block align-self-center" />
+         Addie McGinty's Beach Cottage<br>
+         <span id="robe">Limestone Coast | Robe, South Australia</span>
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
          <span class="navbar-toggler-icon"></span>
@@ -40,7 +43,8 @@
             </li>
             <li class="nav-item smooth-scroll" data-toggle="collapse" data-target=".navbar-collapse.show">
                <a class="nav-link" href="https://www.bookrobeaccommodation.com.au/accommodation/3"
-                  target="_blank"><button class="btn btn-primary" id="book-now" type="submit">BOOK</button></a>
+                  target="_blank"><button class="btn btn-primary" id="book-now" type="submit"><i
+                        class="far fa-calendar-alt"></i> MAKE BOOKING</button></a>
             </li>
          </ul>
       </div>
@@ -99,7 +103,7 @@
             </div>
          </div>
          <div class="col-md-7">
-            <h3>The Cottage</h3>
+            <h3><i class="fas fa-home"></i> The Cottage</h3>
             <p>Stay in one of Robe's unique cottages.</p>
             <p>The cosy and charming "Addie McGinty" is situated only 100 meters from Robe's main street with
                restaurants,
@@ -112,10 +116,13 @@
                <li><i class="far fa-calendar-alt"></i>Min 2 Nights</li>
                <li><i class="fas fa-tv"></i>TV</li>
                <li><i class="fas fa-car-alt"></i>2 Car Parks</li>
+               <li><i class="fas fa-dog"></i>Pet Friendly</li>
             </ul>
-            <p><b>Additional Facilities:</b> Boat Parking, Combustion Fireplace, Dishwasher, Fireplace, Garden Area, Gas
-               BBQ, Kitchen,
-               Microwave, Washer/Dryer, Coffee Machine.</p>
+            <p><b>Additional Amenities:</b> Boat Parking, Combustion Fireplace, Dishwasher, Fireplace, Garden Area, Gas
+               BBQ, Kitchen, Microwave, Washer & Dryer, Coffee Machine.</p>
+            <span id="price">From $120/Night - <a
+                  href="http://app4.yesbookit.com/ybi?agent=SAL&mod=anon-tariff&Code=3&anon=anon1&" target="_blank">
+                  Check Season Rates</a></span>
          </div>
       </div>
    </div>
@@ -125,7 +132,8 @@
    <div class="container-fluid" id="explore">
       <div class="row">
          <div class="col-md-5">
-            <h3>Explore</h3>
+            <h3><i class="fas fa-map-marker-alt"></i> Explore</h3>
+            <p>3 hour drive from Adelaide along the Limestone Coast.</p>
             <p>5 minute walk to beach.</p>
             <p>50 metres from main street.</p>
          </div>
@@ -142,10 +150,10 @@
    <div class="container-fluid parallax" id="contact">
       <div class="row">
          <div class="col-md-5">
-            <h3>Contact</h3>
+            <h3><i class="fas fa-envelope"></i> Contact</h3>
             <!-- jumbotron form -->
             <div class="jumbotron">
-               <form>
+               <form id="my-form">
                   <div class="form-group">
                      <div class="form-question">
                         <label for="FormControlInput1"></label>
@@ -160,7 +168,7 @@
                         <textarea class="form-control" id="FormControlTextarea1" rows="2"
                            placeholder="Your Enquiry"></textarea>
                      </div>
-                     <button type="submit" class="btn btn-primary" id="form-submit-btn">Submit</button>
+                     <button type="submit" class="btn btn-primary" id="form-submit-btn">SUBMIT</button>
                   </div>
                </form>
             </div>
@@ -172,11 +180,19 @@
    <div class="container-fluid">
       <div class="row">
          <div class="col-md-5">
+            <a class="weatherwidget-io" href="https://forecast7.com/en/n37d17139d80/robe/" data-label_1="ROBE"
+               data-label_2="South Australia" data-icons="Climacons" data-days="3" data-theme="sky">ROBE, SA
+            </a>
+            <script>
+               !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
+            </script>
+            <!-- <a class="nav-link" href="https://www.bookrobeaccommodation.com.au/accommodation/3" target="_blank"><button
+                  class="btn btn-primary" id="book-now" type="submit">BOOK</button></a> -->
             <!-- blank -->
          </div>
 
          <div class="col-md-7">
-            <h3>Reviews</h3>
+            <h3><i class="fas fa-comment-alt"></i> Reviews</h3>
             <div class="row">
                <div class="col-md-6">
                   <blockquote class="blockquote text-center">
@@ -232,6 +248,7 @@
          $(this).addClass('active');
       });
    </script>
+
 </body>
 <footer>
    <div class="container-fluid">
@@ -247,7 +264,8 @@
          </div>
          <div class="col-md-3">
             <!-- <h5>Addie McGinty's Cottage</h5> -->
-            <p>14 Union St<br>Robe, South Australia<br>+61 3223 5235</p>
+            <!-- <p>14 Union St<br>Robe, South Australia<br>+61 3223 5235</p> -->
+
          </div>
          <div class="col-md-4">
             <!-- <h5>Social</h5> -->
