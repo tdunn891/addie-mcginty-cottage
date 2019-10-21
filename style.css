@@ -8,10 +8,11 @@ body, html {
 
 #robe {
    font-size: 1.1rem;
+   /* border-radius: 20px; */
 }
 
 .navbar {
-  background-color: rgba(51, 60, 55, 0.8);
+  background-color: rgba(51, 60, 55, 0.7);
   margin-top: 12px;
 }
 
@@ -95,6 +96,13 @@ h3 {
  height: 22vh;
 }
 
+#obelisk-nav-logo {
+   border-radius: 5vw;
+   /* size: 5vw; */
+   height: auto;
+   width: 5vw;
+}
+
 .form-group {
   /* align-items: center; */
   text-align: center;
@@ -114,6 +122,7 @@ h3 {
 
 .container-fluid {
   margin-bottom: 12px;
+  margin: 2px 2px;
 }
 
 .amenities-list {
@@ -182,9 +191,14 @@ a:target {
   height: 50px;
 }
 
+/* .col {
+   margin: 0px 0px;
+   padding: 0px 0px;
+} */
+
 .jumbotron {
-  padding: 10px 18px;
-  margin: 18px 40px;
+  padding: 10px 14px;
+  margin: 10px 10px;
   background-color: rgba(51, 60, 55, 0.5);
   border-radius: 0.5rem;
 }
@@ -249,7 +263,7 @@ a:target {
 .jumbotron .form-group .form-question {
 }
 
-.fab, .fas {
+.fab {
    color: whitesmoke;
    /* font-size: 90px; */
 }
@@ -263,6 +277,6 @@ a:target {
 }
 
 * {
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
   outline-offset: -1px;
 }
