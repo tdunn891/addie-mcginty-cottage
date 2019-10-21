@@ -5,7 +5,7 @@ html {
 body, html {
   /* height: 300px; */
   /* padding-top: 60px; */
-  height: 100%;
+  /* height: 100%; */
   width: 100%;
 }
 
@@ -21,32 +21,62 @@ body, html {
   margin-top: 12px;
 }
 
+h3 {
+  font-size: 1.5rem;
+  padding: 5px 5px;
+  margin: 5px 0px;
+  text-align: center;
+  background-color: rgb(76, 146, 189);
+  /* background-color: #3d75a4; */
+  color: white;
+  border-radius: 10px;
+  font-family: 'Crete Round', serif;
+}
+
+/* Navbar title */
+.navbar-brand {
+   /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+   font-family: 'Crete Round', serif;
+   font-size: 3vh;
+   /* color: white; */
+ }
+
+ #book-now {
+   border-radius: 12px;
+   font-size: 1rem;
+   font-size: 1vw;
+}
+
+.nav-item a {
+   font-size: 1.3vw;
+   /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+   font-family: 'Crete Round', serif;
+   /* color: whitesmoke !important; */
+ }
+
 /* Media query */
 @media screen and (max-width: 600px) {
    .navbar {
       margin-top: 0px;
    }
+   /* .navbar-brand {
+      font-size: 0.9rem;
+   } */
+   h3 {
+      font-size: 2.2vh;
+   }
+   /* .nav-item a {
+      font-size: 1rem;
+   } */
+   /* #book-now {
+      font-size: 0.2rem; */
+   /* } */
    #robe {
       display: none;
    }
 }
 
-h3 {
-  font-size: 1.6rem;
-  padding: 5px 5px;
-  margin: 5px 0px;
-  text-align: center;
-  background-color: rgb(76, 146, 189);
-  color: white;
-  border-radius: 10px;
 
-}
-
-.nav-item a {
-  font-size: 2.3vh;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  /* color: whitesmoke !important; */
-}
 
 /* #sea_green {
   display: block;
@@ -67,27 +97,22 @@ h3 {
    align-items: center;
 }
 
-#book-now {
-   border-radius: 12px;
-   font-size: 20px;
-}
 
-/* Navbar title */
-.navbar-brand {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 3vh;
-  /* color: white; */
-}
+
+
 
 /* Background image */
 .sea-green {
-  background-image: url("assets/img/Sea\ w\ green\ foreground.JPG");
+  /* background-image: url("assets/img/Sea\ w\ green\ foreground.JPG"); */
+  background-image: url("assets/img/Obelisk\ medium\ distance.JPG");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  /* background-position-y: -100px; */
+  /* background-position:  */
   /* background-attachment: fixed; */
   /* background-position-y: 1000px; */
-  height: 18vh;
+  height: 22vh;
 }
 
 .form-group {
@@ -103,9 +128,9 @@ h3 {
 }
 
 #SAL-logo {
-  max-height: 70px;
-  float: right;
-  border-radius: 5px;
+  max-height: 50px;
+  /* float: right; */
+  border-radius: 10px;
   /* display: inline-block; */
 }
 
@@ -126,8 +151,9 @@ h3 {
 /* Footer */
 
 footer .container-fluid {
-  background-color:grey;
+  /* background-color:grey; */
   color: white;
+  background-color: #3d75a4;
 }
 
 /* #carouselFade {
@@ -144,6 +170,14 @@ footer .container-fluid {
   /* object-fit: contain; */
 }
 
+iframe {
+   /* padding-top: 10px; */
+   padding-top: 10px;
+   /* padding-bottom: 10px; */
+   /* display: block; */
+   /* padding-bottom: 10px; */
+}
+
 .blockquote-footer {
    color: white;\;
 }
@@ -155,7 +189,7 @@ footer .container-fluid {
 
 #explore .row {
   min-height: 40vh;
-  max-height: 50vh;
+  /* max-height: 50vh; */
 }
 /* #book-now {
    text-align: center;
@@ -179,27 +213,30 @@ a:target {
 
 .socials-list {
   padding: 0;
-  float: left;
+  margin-top: 8px;
+  /* float: left; */
+  text-align: center;
 }
 
 .socials-list li {
   display: inline;
-  /* padding: 5px; */
   list-style-type: none;
-  height: 15px;
   vertical-align: middle;
+   padding-right: 10px;
+   padding-left: 10px;
 }
 
-.socials-list li i {
+.socials-list li a {
   vertical-align: middle;
   /* color: white;   */
+  text-decoration: none;
 }
 
 /* footer headings */
-footer h5 {
+/* footer h5 {
   font-size: 1.2rem;
-  padding: 5px;
-}
+  padding: 3px;
+} */
 
 #robe-com-au {
   height: 50px;
@@ -227,7 +264,30 @@ footer h5 {
    font-size: 13px;
 }
 
- .parallax {
+.footer-content {
+   padding-top: 8px;
+
+   /* align-content: center; */
+   /* align-items: center; */
+   /* padding-bottom: 0px; */
+}
+
+.footer-content p {
+   font-size: 0.8rem;
+   text-align: center;
+   /* color: honeydew; */
+   /* align-items: center; */
+}
+
+.footer-content a {
+   color: honeydew;
+}
+
+.weatherwidget-io {
+   border-radius: 16px;
+}
+
+.parallax {
    /* The image used */
   /* background-image: url("assets/img/Obelisk\ medium\ distance.JPG"); */
    /* Full height */
@@ -241,6 +301,23 @@ footer h5 {
    background-size: cover;
  }
 
+#addie-branch {
+   background-image: url('assets/img/Addie_Sign.JPG');
+   /* background-position: b; */
+   /* background-repeat: no-repeat; */
+   /* background-size: cover; */
+   /* background-attachment: fixed; */
+   /* background-size: 100px; */
+   /* background-size: inherit; */
+   /* height: 40vh; */
+   background-position-y: 150px;
+   /* background-position-x: -100px; */
+   /* width: ; */
+   /* background-size: contain; */
+   /* width: 50px; */
+   /* max-width: 50px; */
+}
+
 .jumbotron .form-group .form-question {
   /* display: block; */
   /* padding: 0px; */
@@ -249,7 +326,22 @@ footer h5 {
   /* align-items: center; */
 }
 
+.fab {
+   color: whitesmoke;
+   /* font-size: 90px; */
+}
+
+.fab:hover {
+   color: grey;
+}
+
+/* .box {
+   width: 200px;
+   height: 200px;
+   display: block !important;
+} */
+
 * {
-  /* outline: 1px solid red; */
+  outline: 1px solid red;
   outline-offset: -1px;
 }
