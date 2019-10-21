@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+body, html {
   /* height: 300px; */
   /* padding-top: 60px; */
   height: 100%;
@@ -32,12 +32,14 @@ body {
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1.6rem;
   padding: 5px 5px;
   margin: 5px 0px;
   text-align: center;
-  background-color: lightskyblue;
+  background-color: rgb(76, 146, 189);
   color: white;
+  border-radius: 10px;
+
 }
 
 .nav-item a {
@@ -61,6 +63,15 @@ h3 {
   /* color: white; */
 }
 
+.navbar-nav {
+   align-items: center;
+}
+
+#book-now {
+   border-radius: 12px;
+   font-size: 20px;
+}
+
 /* Navbar title */
 .navbar-brand {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -74,6 +85,7 @@ h3 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  /* background-attachment: fixed; */
   /* background-position-y: 1000px; */
   height: 18vh;
 }
@@ -87,6 +99,7 @@ h3 {
 #form-submit-btn {
   margin-bottom: 0px;
   margin-top: 10px;
+  border-radius: 10px;
 }
 
 #SAL-logo {
@@ -204,8 +217,23 @@ footer h5 {
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover;
+  /* height: 30%; */
   /* background-position: top; */
 }
+
+ .parallax {
+   /* The image used */
+  /* background-image: url("assets/img/Obelisk\ medium\ distance.JPG"); */
+   /* Full height */
+   /* height: 100%; */
+   /* height: 50%; */
+
+   /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
 
 .jumbotron .form-group .form-question {
   /* display: block; */
@@ -216,6 +244,6 @@ footer h5 {
 }
 
 * {
-  /* outline: 1px solid red; */
+  outline: 1px solid red;
   outline-offset: -1px;
 }
