@@ -8,7 +8,6 @@ body, html {
 
 #robe {
    font-size: 1.1rem;
-   /* border-radius: 20px; */
 }
 
 .navbar {
@@ -17,7 +16,6 @@ body, html {
 }
 
 h3 {
-  /* font-size: 1.5rem; */
   font-size: 2vw;
   padding: 5px 5px;
   margin: 5px 0px;
@@ -31,23 +29,26 @@ h3 {
 
 /* Navbar title */
 .navbar-brand {
-   /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
    font-family: 'Crete Round', serif;
    font-size: 2.2vw;
-   /* color: white; */
  }
 
- #book-now {
+ .book-now {
    border-radius: 12px;
    font-size: 1rem;
    font-size: 1vw;
 }
 
+/* Lower Book Now btn */
+#book-now-2 {
+   /* justify-content: center; */
+   /* align-self: center; */
+   /* align-content: center; */
+}
+
 .nav-item a {
    font-size: 1.2vw;
-   /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
    font-family: 'Crete Round', serif;
-   /* color: whitesmoke !important; */
  }
 
 /* Media query */
@@ -55,9 +56,6 @@ h3 {
    .navbar {
       margin-top: 0px;
    }
-   /* .navbar-brand {
-      font-size: 0.9rem;
-   } */
    h3 {
       font-size: 5vw;
    }
@@ -68,14 +66,6 @@ h3 {
       display: none;
    }
 }
-
-/* #sea_green {
-  display: block;
-  max-height: 10vh;
-  width: 100%;
-  /* height: auto; */
-/* height: 10px; */
-/* } */
 
 /* Center collapsed navbar items */
 .navbar-collapse {
@@ -104,7 +94,6 @@ h3 {
 }
 
 .form-group {
-  /* align-items: center; */
   text-align: center;
   margin-bottom: 0px;
 }
@@ -132,7 +121,6 @@ h3 {
 
 /* Footer */
 footer .container-fluid {
-  /* background-color:grey; */
   color: white;
   background-color: #3d75a4;
 }
@@ -167,7 +155,6 @@ a:target {
 }
 
 /* socials list */
-
 .socials-list {
   padding: 0;
   margin-top: 8px;
@@ -191,10 +178,28 @@ a:target {
   height: 50px;
 }
 
-/* .col {
-   margin: 0px 0px;
-   padding: 0px 0px;
-} */
+/* Explore list */
+#explore-list {
+   list-style-type: none;
+   text-align: center;
+}
+
+#explore-list li {
+   display: inline-block;
+   text-decoration: none;
+   margin: 5px 5px;
+   padding: 5px 5px;
+}
+
+#explore-list li a {
+   text-decoration: none;
+   padding: 10px 10px;
+   margin: 10px 10px;
+   background-color: lightgray;
+   border: lightslategrey;
+}
+
+/* END Explore list */
 
 .jumbotron {
   padding: 10px 14px;
@@ -212,12 +217,9 @@ a:target {
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover;
-  /* height: 30%; */
-  /* background-position: top; */
 }
 
 #price {
-   /* float: center; */
    font-style: italic;
    font-size: 13px;
 }
@@ -229,8 +231,6 @@ a:target {
 .footer-content p {
    font-size: 0.8rem;
    text-align: center;
-   /* color: honeydew; */
-   /* align-items: center; */
 }
 
 .footer-content a {
@@ -242,12 +242,6 @@ a:target {
 }
 
 .parallax {
-   /* The image used */
-  /* background-image: url("assets/img/Obelisk\ medium\ distance.JPG"); */
-   /* Full height */
-   /* height: 100%; */
-   /* height: 50%; */
-
    /* Create the parallax scrolling effect */
    background-attachment: fixed;
    background-position: center;
