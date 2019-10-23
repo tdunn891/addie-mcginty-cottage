@@ -56,12 +56,20 @@ h3 {
    /* margin-left: 50%; */
 }
 
+/* .material-icons.material-icons--outline {
+   font-family: 'Material Icons Outline';
+ } */
+
 .nav-item a {
    font-size: 1.2vw;
    font-family: 'Crete Round', serif;
    /* padding: 30px 30px; */
    /* margin-right: 15%; */
  }
+
+#sleeping-arrangements {
+   /* float: right; */
+}
 
 /* Media query */
 @media screen and (max-width: 768px) {
@@ -176,6 +184,21 @@ h3 {
 .amenities-list {
   list-style: none;
   padding-left: 0;
+  /* padding-bottom: 6px; */
+}
+
+.amenities-list li {
+   /* padding: 1px 1px; */
+   /* width: 5px; */
+   /* vertical-align: middle !important; */
+}
+
+.amenities-list li i {
+   padding: 5px 5px;
+   font-size: 22px;
+   width: 50px;
+   vertical-align: middle;
+   text-align: center;
 }
 
 /* Footer */
@@ -349,6 +372,6 @@ a:target {
 }
 
 * {
-  /* outline: 1px solid red; */
+  outline: 1px solid red;
   outline-offset: -1px;
 }

@@ -9,6 +9,8 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
    <link href="https://fonts.googleapis.com/css?family=Crete+Round&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet">
+   <!-- https://fonts.googleapis.com/css?family=Roboto:300,400,500|Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp -->
    <link rel="stylesheet" href="style.css" type="text/css">
    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
@@ -111,16 +113,43 @@
             <p>The cosy and charming "Addie McGinty" is situated only 100 meters from Robe's main street with
                restaurants,
                shops & cafes and safe swimming beach...</p>
-            <ul class="amenities-list">
-               <li><i class="fas fa-bed"></i>Sleeps 7</li>
-               <li><i class="fas fa-restroom"></i>2 Bathrooms</li>
-               <li><i class="fas fa-wifi"></i>Wifi</li>
-               <li><i class="fas fa-table-tennis"></i>Table Tennis</li>
-               <li><i class="far fa-calendar-alt"></i>Min 2 Nights</li>
-               <li><i class="fas fa-tv"></i>TV</li>
-               <li><i class="fas fa-car-alt"></i>2 Car Parks</li>
-               <li><i class="fas fa-dog"></i>Pet Friendly</li>
-            </ul>
+            <div class="row">
+               <div class="col-sm-6">
+
+                  <ul class="amenities-list">
+                     <li><i class="fas fa-bed"></i>Sleeps 7</li>
+                     <li><i class="fas fa-restroom"></i>2 Bathrooms</li>
+                     <li><i class="fas fa-wifi"></i>Wifi</li>
+                     <li><i class="fas fa-tv"></i>TV</li>
+                     <li><i class="fas fa-car-alt"></i>Ample Parking</li>
+                     <li><i class="fas fa-table-tennis"></i>Table Tennis</li>
+                     <li><i class="fas fa-dog"></i>Pet Friendly</li>
+                  </ul>
+               </div>
+               <div class="col-sm-6">
+                  <p>Sleeping Arrangements:</p>
+                  <ul id="sleeping-arrangements">
+                     <li class="bedroom">
+                        Bedroom 1:
+                        <i class="material-icons-outlined">king_bed</i>
+                        <i class="material-icons-outlined">single_bed</i> <br>
+                        1 king + 1 single
+                     </li>
+                     <li class="bedroom">
+                        Bedroom 2:
+                        <i class="material-icons-outlined">single_bed</i>
+                        <i class="material-icons-outlined">single_bed</i> <br>
+                        2 singles
+                     </li>
+                     <li class="bedroom">
+                        Bedroom 3:
+                        <i class="material-icons-outlined">single_bed</i>
+                        <i class="material-icons-outlined">single_bed</i> <br>
+                        2 singles
+                     </li>
+                  </ul>
+               </div>
+            </div>
             <p><b>Additional Amenities:</b> Boat Parking, Combustion Fireplace, Dishwasher, Fireplace, Garden Area, Gas
                BBQ, Kitchen, Microwave, Washer & Dryer, Coffee Machine.</p>
             <span id="price">From $120/Night - <a
