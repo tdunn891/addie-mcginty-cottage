@@ -6,8 +6,10 @@ body, html {
   width: 100%;
 }
 
-#robe {
-   font-size: 1.1rem;
+#limestone {
+   font-size: 1vw;
+   display: none;
+   /* font-style: normal; */
 }
 
 .navbar {
@@ -16,7 +18,7 @@ body, html {
 }
 
 h3 {
-  font-size: 2vw;
+  font-size: 1.9vw;
   padding: 5px 5px;
   margin: 5px 0px;
   text-align: center;
@@ -30,13 +32,17 @@ h3 {
 /* Navbar title */
 .navbar-brand {
    font-family: 'Crete Round', serif;
-   font-size: 2.2vw;
+   font-size: 1.8vw;
  }
 
- .book-now {
+/* Make Booking Button (TOP) */
+#book-now {
+   font-size: 1.2vw;
+}
+
+.book-now {
    border-radius: 12px;
-   font-size: 1rem;
-   font-size: 1vw;
+   /* font-size: 1rem; */
 }
 
 /* Lower Book Now btn */
@@ -44,17 +50,24 @@ h3 {
    /* justify-content: center; */
    /* align-self: center; */
    /* align-content: center; */
+   /* display: inline-block; */
+   /* align-content: center; */
+   /* align-items: flex-end; */
+   /* margin-left: 50%; */
 }
 
 .nav-item a {
    font-size: 1.2vw;
    font-family: 'Crete Round', serif;
+   /* padding: 30px 30px; */
+   /* margin-right: 15%; */
  }
 
 /* Media query */
 @media screen and (max-width: 768px) {
    .navbar {
       margin-top: 0px;
+      /* padding-bottom: 0px; */
    }
    h3 {
       font-size: 5vw;
@@ -62,14 +75,53 @@ h3 {
    .navbar-brand {
       font-size: 4vw;
    }
-   #robe {
+   #limestone {
       display: none;
    }
+   /* .navbar-nav {
+      height: 100%;
+   } */
+   .navbar-collapse {
+      /* height: 250px; */
+      height: auto;
+      padding-bottom: 0px;
+   }
+   .nav-item {
+      width: 100%;
+      /* height: 100%; */
+   }
+   .nav-item a {
+      /* font-size: 2.8vw; */
+      font-size: 4.5vw;
+      /* margin-bottom: 2%; */
+      /* margin-top: 2%; */
+      /* width: 100%; */
+      /* border-bottom: blanchedalmond; */
+      outline: blanchedalmond;
+      padding: 20px;
+   }
+   #book-now {
+      font-size: 4.5vw;
+      width: 100%;
+      height: 100%;
+      /* margin-bottom: 0px !important; */
+   }
+   .navbar-nav li:last-child > a {
+      padding: 0px;
+   }
 }
+
+/* END Media query */
+
 
 /* Center collapsed navbar items */
 .navbar-collapse {
   text-align: center;
+  /* height: 1vmax; */
+}
+
+.navbar-collapse li {
+   /* height: 50%; */
 }
 
 .navbar-nav {
@@ -91,6 +143,13 @@ h3 {
    /* size: 5vw; */
    height: auto;
    width: 5vw;
+}
+
+#price {
+   font-style: italic;
+   font-size: 14px;
+   /* justify-content: center; */
+   /* text-align: center; */
 }
 
 .form-group {
@@ -125,14 +184,25 @@ footer .container-fluid {
   background-color: #3d75a4;
 }
 
+/* Carousel */
+#carouselFade {
+   /* padding-top: 6px;
+   padding-bottom: 6px; */
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+
 .carousel-item img {
   min-width: auto;
 }
 
+/* Weather  */
 iframe {
    padding-top: 10px;
+   padding-bottom: 10px;
 }
 
+/* Reviews */
 .blockquote-footer {
    color: white;\;
 }
@@ -143,7 +213,7 @@ iframe {
 }
 
 #explore .row {
-  min-height: 40vh;
+  /* min-height: 40vh; */
 }
 
 /* to offset links by height of navbar. not working */
@@ -174,6 +244,7 @@ a:target {
   text-decoration: none;
 }
 
+/* Robe Council logo */
 #robe-com-au {
   height: 50px;
 }
@@ -219,10 +290,6 @@ a:target {
   background-size: cover;
 }
 
-#price {
-   font-style: italic;
-   font-size: 13px;
-}
 
 .footer-content {
    padding-top: 8px;
@@ -239,6 +306,17 @@ a:target {
 
 .weatherwidget-io {
    border-radius: 16px;
+}
+
+
+/* Reviews */
+.mb-0 {
+  color: whitesmoke;
+  font-size: 1.4vw;
+}
+
+.reviewer {
+   font-size: 0.9vw;
 }
 
 .parallax {
