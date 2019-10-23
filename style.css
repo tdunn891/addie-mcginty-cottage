@@ -2,14 +2,15 @@ html {
   scroll-behavior: smooth;
 }
 
-body, html {
+body,
+html {
   width: 100%;
 }
 
 #limestone {
-   font-size: 1vw;
-   display: none;
-   /* font-style: normal; */
+  font-size: 1vw;
+  display: none;
+  /* font-style: normal; */
 }
 
 .navbar {
@@ -23,104 +24,114 @@ h3 {
   margin: 5px 0px;
   text-align: center;
   background-color: rgb(76, 146, 189);
-  /* background-color: #3d75a4; */
   color: white;
   border-radius: 10px;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
 }
 
 /* Navbar title */
 .navbar-brand {
-   font-family: 'Crete Round', serif;
-   font-size: 1.8vw;
- }
+  font-family: "Crete Round", serif;
+  font-size: 1.8vw;
+}
 
 /* Make Booking Button (TOP) */
 #book-now {
-   font-size: 1.2vw;
+  font-size: 1.2vw;
 }
 
 .book-now {
-   border-radius: 12px;
-   /* font-size: 1rem; */
+  border-radius: 12px;
+  /* font-size: 1rem; */
 }
 
 /* Lower Book Now btn */
 #book-now-2 {
-   /* justify-content: center; */
-   /* align-self: center; */
-   /* align-content: center; */
-   /* display: inline-block; */
-   /* align-content: center; */
-   /* align-items: flex-end; */
-   /* margin-left: 50%; */
 }
 
-/* .material-icons.material-icons--outline {
-   font-family: 'Material Icons Outline';
- } */
-
+/* Nav links */
 .nav-item a {
-   font-size: 1.2vw;
-   font-family: 'Crete Round', serif;
-   /* padding: 30px 30px; */
-   /* margin-right: 15%; */
- }
+  font-size: 1.2vw;
+  font-family: "Crete Round", serif;
+  /* padding: 30px 30px; */
+  /* margin-right: 15%; */
+}
 
 #sleeping-arrangements {
-   /* float: right; */
+  /* align-items: center; */
+  /* text-align: center; */
+  padding-left: 0px;
+}
+
+#sleeping-arrangements li {
+  /* vertical-align: middle; */
+  list-style-type: none;
+  display: inline-block;
+  padding: 5px 5px;
+  /* width: auto; */
+  margin: 5px 5px;
+  /* border: blue; */
+  outline: 1px solid blue;
+}
+
+.material-icons-outlined {
+  font-size: 25px;
+
+}
+
+/* sleeping arrangements text*/
+h5 {
+  font-family: "Crete Round", serif;
+  font-weight: bold;
+  font-size: 1rem;
 }
 
 /* Media query */
-@media screen and (max-width: 768px) {
-   .navbar {
-      margin-top: 0px;
-      /* padding-bottom: 0px; */
-   }
-   h3 {
-      font-size: 5vw;
-   }
-   .navbar-brand {
-      font-size: 4vw;
-   }
-   #limestone {
-      display: none;
-   }
-   /* .navbar-nav {
-      height: 100%;
-   } */
-   .navbar-collapse {
-      /* height: 250px; */
-      height: auto;
-      padding-bottom: 0px;
-   }
-   .nav-item {
-      width: 100%;
-      /* height: 100%; */
-   }
-   .nav-item a {
-      /* font-size: 2.8vw; */
-      font-size: 4.5vw;
-      /* margin-bottom: 2%; */
-      /* margin-top: 2%; */
-      /* width: 100%; */
-      /* border-bottom: blanchedalmond; */
-      outline: blanchedalmond;
-      padding: 20px;
-   }
-   #book-now {
-      font-size: 4.5vw;
-      width: 100%;
-      height: 100%;
-      /* margin-bottom: 0px !important; */
-   }
-   .navbar-nav li:last-child > a {
-      padding: 0px;
-   }
+@media screen and (max-width: 992px) {
+  .navbar {
+    margin-top: 0px;
+    /* padding-bottom: 0px; */
+  }
+  h3 {
+    font-size: 5vw;
+  }
+  .navbar-brand {
+    font-size: 4vw;
+  }
+  #limestone {
+    display: none;
+  }
+  .navbar-collapse {
+    /* height: 250px; */
+    height: auto;
+    padding-bottom: 0px;
+  }
+  .nav-item {
+    width: 100%;
+    /* height: 100%; */
+  }
+  .nav-item a {
+    /* font-size: 2.8vw; */
+    font-size: 4.5vw;
+    /* margin-bottom: 2%; */
+    /* margin-top: 2%; */
+    /* width: 100%; */
+    /* border-bottom: blanchedalmond; */
+    outline: blanchedalmond;
+    padding: 20px;
+  }
+  #book-now {
+    font-size: 4.5vw;
+    width: 100%;
+    height: 100%;
+    /* margin-bottom: 0px !important; */
+  }
+  .navbar-nav li:last-child > a {
+    padding: 0px;
+  }
 }
 
 /* END Media query */
-
 
 /* Center collapsed navbar items */
 .navbar-collapse {
@@ -128,12 +139,8 @@ h3 {
   /* height: 1vmax; */
 }
 
-.navbar-collapse li {
-   /* height: 50%; */
-}
-
 .navbar-nav {
-   align-items: center;
+  align-items: center;
 }
 
 /* Background image */
@@ -143,21 +150,21 @@ h3 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
- height: 22vh;
+  height: 22vh;
 }
 
 #obelisk-nav-logo {
-   border-radius: 5vw;
-   /* size: 5vw; */
-   height: auto;
-   width: 5vw;
+  border-radius: 5vw;
+  /* size: 5vw; */
+  height: auto;
+  width: 5vw;
 }
 
 #price {
-   font-style: italic;
-   font-size: 14px;
-   /* justify-content: center; */
-   /* text-align: center; */
+  font-style: italic;
+  font-size: 15px;
+  /* justify-content: center; */
+  /* text-align: center; */
 }
 
 .form-group {
@@ -178,7 +185,7 @@ h3 {
 
 .container-fluid {
   margin-bottom: 12px;
-  margin: 2px 2px;
+  /* margin: 2px 2px; */
 }
 
 .amenities-list {
@@ -188,17 +195,22 @@ h3 {
 }
 
 .amenities-list li {
-   /* padding: 1px 1px; */
-   /* width: 5px; */
-   /* vertical-align: middle !important; */
+  padding: 6px 0px;
+  /* width: 5px; */
+  vertical-align: bottom !important;
 }
 
 .amenities-list li i {
-   padding: 5px 5px;
-   font-size: 22px;
-   width: 50px;
-   vertical-align: middle;
-   text-align: center;
+  padding: 2px 0px;
+  font-size: 22px;
+  width: 50px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#kitchen-icon {
+   font-size: 26px;
+   /* height: 20px; */
 }
 
 /* Footer */
@@ -209,10 +221,10 @@ footer .container-fluid {
 
 /* Carousel */
 #carouselFade {
-   /* padding-top: 6px;
+  /* padding-top: 6px;
    padding-bottom: 6px; */
-   margin-top: 5px;
-   margin-bottom: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .carousel-item img {
@@ -221,18 +233,18 @@ footer .container-fluid {
 
 /* Weather  */
 iframe {
-   padding-top: 10px;
-   padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /* Reviews */
 .blockquote-footer {
-   color: white;\;
+  color: white;
 }
 
 .blockquote {
-   background-color: rgba(2,3,3,0.4);
-   border-radius: 6px;
+  background-color: rgba(2, 3, 3, 0.4);
+  border-radius: 6px;
 }
 
 #explore .row {
@@ -258,8 +270,8 @@ a:target {
   display: inline;
   list-style-type: none;
   vertical-align: middle;
-   padding-right: 10px;
-   padding-left: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .socials-list li a {
@@ -274,23 +286,23 @@ a:target {
 
 /* Explore list */
 #explore-list {
-   list-style-type: none;
-   text-align: center;
+  list-style-type: none;
+  text-align: center;
 }
 
 #explore-list li {
-   display: inline-block;
-   text-decoration: none;
-   margin: 5px 5px;
-   padding: 5px 5px;
+  display: inline-block;
+  text-decoration: none;
+  margin: 5px 5px;
+  padding: 5px 5px;
 }
 
 #explore-list li a {
-   text-decoration: none;
-   padding: 10px 10px;
-   margin: 10px 10px;
-   background-color: lightgray;
-   border: lightslategrey;
+  text-decoration: none;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  background-color: lightgray;
+  border: lightslategrey;
 }
 
 /* END Explore list */
@@ -302,8 +314,9 @@ a:target {
   border-radius: 0.5rem;
 }
 
-#FormControlInput1, #FormControlInput2 {
-   width: 75%;
+#FormControlInput1,
+#FormControlInput2 {
+  width: 75%;
 }
 
 #contact {
@@ -313,65 +326,63 @@ a:target {
   background-size: cover;
 }
 
-
 .footer-content {
-   padding-top: 8px;
+  padding-top: 8px;
 }
 
-.footer-content p {
-   font-size: 0.8rem;
-   text-align: center;
+.footer-content p { 
+  font-size: 0.8rem;
+  text-align: center;
 }
 
 .footer-content a {
-   color: honeydew;
+  color: honeydew;
 }
 
 .weatherwidget-io {
-   border-radius: 16px;
+  border-radius: 16px;
 }
-
 
 /* Reviews */
 .mb-0 {
   color: whitesmoke;
-  font-size: 1.4vw;
+  font-size: 17px;
 }
 
 .reviewer {
-   font-size: 0.9vw;
+  font-size: 13px;
 }
 
 .parallax {
-   /* Create the parallax scrolling effect */
-   background-attachment: fixed;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
- }
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 #addie-branch {
-   background-image: url('assets/img/Addie_Sign.JPG');
-   background-position-y: 150px;
+  background-image: url("assets/img/Addie_Sign.JPG");
+  background-position-y: 150px;
 }
 
 .jumbotron .form-group .form-question {
 }
 
 .fab {
-   color: whitesmoke;
-   /* font-size: 90px; */
+  color: whitesmoke;
+  /* font-size: 90px; */
 }
 
 .fab:hover {
-   color: grey;
+  color: grey;
 }
 
 .fas:hover {
-   color: grey;
+  color: grey;
 }
 
 * {
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
   outline-offset: -1px;
 }
