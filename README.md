@@ -103,6 +103,8 @@ HTML5, CSS3, Bootstrap 4.3, JavaScript
 ### Content
 
 ### Media
+Some of the carousel images were obtained from Robe 
 
 ### Acknowledgements
+Thank you to my father and grandmother for providing feedback.
 <!-- END CREDITS -->
