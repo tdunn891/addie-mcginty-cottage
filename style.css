@@ -14,8 +14,9 @@ html {
 }
 
 .navbar {
-  background-color: rgba(51, 60, 55, 0.7);
+  background-color: rgba(51, 60, 55, 0.75);
   margin-top: 12px;
+  padding: 22px 10px;
 }
 
 h3 {
@@ -32,21 +33,25 @@ h3 {
 /* Navbar title */
 .navbar-brand {
   font-family: "Crete Round", serif;
-  font-size: 1.8vw;
+  font-size: 1.7vw;
 }
 
 /* Make Booking Button (TOP) */
 #book-now {
   font-size: 1.2vw;
+  border-radius: 1rem;
+}
+
+/* Second Make Booking button (ideally this would be a class, not a second id) */
+#book-now-2 {
+  border-radius: 1rem;
+  font-family: "Crete Round", serif;
 }
 
 .book-now {
-  border-radius: 12px;
+  /* border-radius: 16px; */
+  border-radius: 1rem;
   /* font-size: 1rem; */
-}
-
-/* Lower Book Now btn */
-#book-now-2 {
 }
 
 /* Nav links */
@@ -76,7 +81,6 @@ h3 {
 
 .material-icons-outlined {
   font-size: 25px;
-
 }
 
 /* sleeping arrangements text*/
@@ -120,12 +124,16 @@ h5 {
     outline: blanchedalmond;
     padding: 20px;
   }
+
   #book-now {
     font-size: 4.5vw;
     width: 100%;
     height: 100%;
+    /* border-radius: 2rem; */
+    /* border-radius: 2rem !important; */
     /* margin-bottom: 0px !important; */
   }
+
   .navbar-nav li:last-child > a {
     padding: 0px;
   }
@@ -154,10 +162,12 @@ h5 {
 }
 
 #obelisk-nav-logo {
-  border-radius: 5vw;
+  /* border-radius: 5vw; */
+  border-radius: 65px;
   /* size: 5vw; */
   height: auto;
-  width: 5vw;
+  /* width: 5vw; */
+  width: 65px;
 }
 
 #price {
@@ -209,8 +219,8 @@ h5 {
 }
 
 #kitchen-icon {
-   font-size: 26px;
-   /* height: 20px; */
+  font-size: 26px;
+  /* height: 20px; */
 }
 
 /* Footer */
@@ -330,7 +340,7 @@ a:target {
   padding-top: 8px;
 }
 
-.footer-content p { 
+.footer-content p {
   font-size: 0.8rem;
   text-align: center;
 }
@@ -383,6 +393,6 @@ a:target {
 }
 
 * {
-  /* outline: 1px solid red; */
+  outline: 1px solid red;
   outline-offset: -1px;
 }

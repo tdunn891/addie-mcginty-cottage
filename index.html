@@ -20,7 +20,7 @@
 <body>
 
    <!-- NAV BAR -->
-   <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+   <nav class="navbar navbar-expand-lg fixed-top navbar-dark" id="navbar">
       <a class="navbar-brand" href="#"><img src="assets/img/Obelisk.png" id="obelisk-nav-logo"
             class="d-inline-block align-self-center" />
          Addie McGinty's Beach Cottage<br>
@@ -75,16 +75,22 @@
                      <img src="assets/img/Addie McGinty_front.JPG" class="d-block w-100" alt="Addie McGinty front">
                   </div>
                   <div class="carousel-item">
-                     <img src="assets/img/Table and Kitchen.jpeg" class="d-block w-100" alt="Table and Kitchen">
+                     <img src="assets/img/LivingRoom.jpg" class="d-block w-100" alt="Living Room">
                   </div>
                   <div class="carousel-item">
-                     <img src="assets/img/Living Space.jpeg" class="d-block w-100" alt="Living Space">
+                     <img src="assets/img/Table and Kitchen.jpeg" class="d-block w-100" alt="Table and Kitchen">
                   </div>
+                  <!-- <div class="carousel-item">
+                     <img src="assets/img/Living Space.jpeg" class="d-block w-100" alt="Living Space">
+                  </div> -->
                   <div class="carousel-item">
                      <img src="assets/img/MasterBedroom.jpeg" class="d-block w-100" alt="Master Bedroom">
                   </div>
                   <div class="carousel-item">
-                     <img src="assets/img/Two Singles Bedroom.jpeg" class="d-block w-100" alt="Two Singles Bedroom">
+                     <img src="assets/img/Two Singles Bedroom-2.jpg" class="d-block w-100" alt="Two Singles Bedroom">
+                  </div>
+                  <div class="carousel-item">
+                     <img src="assets/img/LivingRoomReverse.jpg" class="d-block w-100" alt="Living Room Reverse">
                   </div>
                   <div class="carousel-item">
                      <img src="assets/img/Long Beach.jpg" class="d-block w-100" alt="Long Beach, Robe">
@@ -321,6 +327,24 @@
          $(selector).removeClass('active');
          $(this).addClass('active');
       });
+   </script>
+   <script>
+      window.onscroll = function () { scrollFunction() };
+      function scrollFunction() {
+         if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+            // scrolling down
+            document.getElementById("navbar").style.padding = "5px 10px";
+            document.getElementById("navbar").style.margin = "0px 0px";
+            document.getElementById("obelisk-nav-logo").style.width = "50px";
+            document.getElementById("obelisk-nav-logo").style.padding = "2px 2px";
+            // document.getElementById("navbar").style.op = "1"
+         } else {
+            // when near top
+            document.getElementById("navbar").style.padding = "22px 10px";
+            document.getElementById("navbar").style.margin = "12px 0px";
+            document.getElementById("obelisk-nav-logo").style.width = "65px";
+         }
+      }
    </script>
 
 </body>
