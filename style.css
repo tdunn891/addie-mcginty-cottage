@@ -14,13 +14,17 @@ html {
   padding-left: 2px;
 }
 
+.col-sm-6 {
+   /* margin: 1px 0; */
+}
+
 #robe-sa {
   font-size: 16px;
   display: none;
 }
 
 section {
-  margin: 22px 0px;
+  margin: 12px 0px;
   /* padding-left: 1000px; */
 }
 
@@ -70,6 +74,10 @@ h3 {
   font-size: 1.05vw;
   font-family: "Crete Round", serif;
   transition: all 0.2s ease-in-out;
+}
+
+#check-in-out {
+  font-size: 14px;
 }
 
 #sleeping-arrangements {
@@ -124,6 +132,7 @@ h5 {
 #price {
   font-style: italic;
   font-size: 15px;
+  float: right;
 }
 
 .form-group {
@@ -140,10 +149,6 @@ h5 {
 #SAL-logo {
   max-height: 50px;
   border-radius: 10px;
-}
-
-.container-fluid {
-  margin-bottom: 12px;
 }
 
 .amenities-list {
@@ -170,6 +175,10 @@ h5 {
 }
 
 /* Footer */
+#footer {
+  background-color: #3d75a4;
+}
+
 footer .container-fluid {
   color: white;
   background-color: #3d75a4;
@@ -203,15 +212,15 @@ footer .container-fluid {
 }
 
 #explore .row {
-  min-height: 30vh;
+  min-height: 25vh;
 }
 
 #contact .row {
-  min-height: 30vh;
+  min-height: 25vh;
 }
 
 #reviews .row {
-  min-height: 30vh;
+  min-height: 25vh;
 }
 
 /* to offset links by height of navbar. not working */
@@ -250,7 +259,7 @@ a:target {
 /* Explore list */
 #explore-list {
   list-style-type: none;
-  text-align: center;
+  text-align: left;
   padding-left: 0px;
   /* display: inline-block; */
 }
@@ -259,8 +268,8 @@ a:target {
   /* display: block; */
   text-decoration: none;
   font-size: 18px;
-  margin: 10px 0;
-  padding: 10px 0;
+  margin: 8px 0;
+  padding: 8px 0;
   /* padding: 5px 5px; */
 }
 
@@ -385,7 +394,7 @@ a:target {
     width: 100%;
   }
   .nav-item a {
-    font-size: 4.5vw;
+    font-size: 4.4vw;
     outline: blanchedalmond;
     padding: 20px;
   }
@@ -395,13 +404,16 @@ a:target {
     height: 100%;
   }
   .jumbotron {
-    width: 85%;
+    width: 100%;
   }
   .navbar-nav li:last-child > a {
     padding: 0px;
   }
+  .socials-list li {
+   /* width: 1px !important; */
+  }
   .col-lg-6 {
-    margin: 2px;
+    margin: 7px;
   }
   #robe-sa {
     display: none;
