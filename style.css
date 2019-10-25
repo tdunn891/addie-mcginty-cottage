@@ -5,28 +5,30 @@ html {
 body,
 html {
   width: 100%;
-  height: 100%;
 }
 
 #limestone {
   font-size: 1vw;
-  /* display: none; */
-  /* font-style: normal; */
+  display: none;
   margin-left: 74px;
   padding-left: 2px;
-  /* font-weight: normal; */
+}
+
+section {
+  margin: 24px 0px;
+  /* padding-left: 1000px; */
 }
 
 .navbar {
-  background-color: rgba(51, 60, 55, 0.75);
+  background-color: rgba(51, 60, 55, 0.8);
   margin-top: 12px;
-  padding: 22px 10px;
+  padding: 10px 10px;
 }
 
 h3 {
   font-size: 1.6vw;
   padding: 8px 4px;
-  margin: 12px 0px;
+  margin: 0px 0px;
   text-align: center;
   background-color: rgb(76, 146, 189);
   color: white;
@@ -53,33 +55,25 @@ h3 {
 }
 
 .book-now {
-  /* border-radius: 16px; */
   border-radius: 1rem;
-  /* font-size: 1rem; */
 }
 
 /* Nav links */
 .nav-item a {
   font-size: 1.05vw;
   font-family: "Crete Round", serif;
-  /* padding: 30px 30px; */
-  /* margin-right: 15%; */
+  transition: all 0.2s ease-in-out;
 }
 
 #sleeping-arrangements {
-  /* align-items: center; */
-  /* text-align: center; */
   padding-left: 0px;
 }
 
 #sleeping-arrangements li {
-  /* vertical-align: middle; */
   list-style-type: none;
   display: inline-block;
   padding: 5px 5px;
-  /* width: auto; */
   margin: 5px 5px;
-  /* border: blue; */
   outline: 1px solid blue;
 }
 
@@ -94,65 +88,9 @@ h5 {
   font-size: 1rem;
 }
 
-#other-amenities {
-  font-size: 0.9rem;
-}
-
-/* Media query */
-@media screen and (max-width: 992px) {
-  .navbar {
-    margin-top: 0px;
-    /* padding-bottom: 0px; */
-  }
-  h3 {
-    font-size: 5vw;
-  }
-  .navbar-brand {
-    font-size: 4vw;
-  }
-  #limestone {
-    display: none;
-  }
-  .navbar-collapse {
-    /* height: 250px; */
-    height: auto;
-    padding-bottom: 0px;
-  }
-  .nav-item {
-    width: 100%;
-    /* height: 100%; */
-  }
-  .nav-item a {
-    /* font-size: 2.8vw; */
-    font-size: 4.5vw;
-    /* margin-bottom: 2%; */
-    /* margin-top: 2%; */
-    /* width: 100%; */
-    /* border-bottom: blanchedalmond; */
-    outline: blanchedalmond;
-    padding: 20px;
-  }
-
-  #book-now {
-    font-size: 4.5vw;
-    width: 100%;
-    height: 100%;
-    /* border-radius: 2rem; */
-    /* border-radius: 2rem !important; */
-    /* margin-bottom: 0px !important; */
-  }
-
-  .navbar-nav li:last-child > a {
-    padding: 0px;
-  }
-}
-
-/* END Media query */
-
 /* Center collapsed navbar items */
 .navbar-collapse {
   text-align: center;
-  /* height: 1vmax; */
 }
 
 .navbar-nav {
@@ -161,8 +99,9 @@ h5 {
 
 /* Background image */
 .sea-green {
-  /* background-image: url("assets/img/Sea\ w\ green\ foreground.JPG"); */
-  background-image: url("assets/img/Obelisk\ medium\ distance.JPG");
+  background-image: url("assets/img/Sea\ w\ green\ foreground.JPG");
+  /* background-image: url("assets/img/Obelisk\ medium\ distance.JPG"); */
+  /* background-image: url("assets/img/IMG_4247-3.jpg"); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -170,19 +109,14 @@ h5 {
 }
 
 #obelisk-nav-logo {
-  /* border-radius: 5vw; */
   border-radius: 65px;
-  /* size: 5vw; */
   height: auto;
-  /* width: 5vw; */
   width: 65px;
 }
 
 #price {
   font-style: italic;
   font-size: 15px;
-  /* justify-content: center; */
-  /* text-align: center; */
 }
 
 .form-group {
@@ -203,18 +137,15 @@ h5 {
 
 .container-fluid {
   margin-bottom: 12px;
-  /* margin: 2px 2px; */
 }
 
 .amenities-list {
   list-style: none;
   padding-left: 0;
-  /* padding-bottom: 6px; */
 }
 
 .amenities-list li {
   padding: 3px 0px;
-  /* width: 5px; */
   vertical-align: bottom !important;
 }
 
@@ -226,9 +157,9 @@ h5 {
   text-align: center;
 }
 
-#kitchen-icon {
+#kitchen-icon,
+#fireplace-icon {
   font-size: 26px;
-  /* height: 20px; */
 }
 
 /* Footer */
@@ -239,39 +170,28 @@ footer .container-fluid {
 
 /* Carousel */
 #carouselFade {
-  /* padding-top: 6px;
-   padding-bottom: 6px; */
-  margin-top: 5px;
-  margin-bottom: 5px;
 }
 
 .carousel-item img {
   min-width: auto;
 }
 
-/* Weather  */
-/* iframe {
-  padding-top: 10px;
-  padding-bottom: 10px;
-} */
-
 /* Reviews */
 .blockquote-footer {
-   text-align: right;
+  text-align: right;
   color: white;
 }
 
 .blockquote {
   background-color: rgba(2, 3, 3, 0.75);
   border-radius: 6px;
-  padding: 20px 20px;
-  /* margin: 0px 35px; */
-  margin: 10px 12px;
+  padding: 16px 20px;
+  margin: 10px 10px;
 }
 
 .blockquote p {
-   font-size: 1.6vh;
-   font-style: italic;
+  font-size: 1.6vh;
+  font-style: italic;
 }
 
 #explore .row {
@@ -279,18 +199,18 @@ footer .container-fluid {
 }
 
 #contact .row {
-   min-height: 40vh;
+  min-height: 40vh;
 }
 
 #reviews .row {
-   min-height: 40vh;
+  min-height: 40vh;
 }
 
 /* to offset links by height of navbar. not working */
 a:target {
   display: block;
   position: relative;
-  top: -80px;
+  top: -58px;
   visibility: hidden;
 }
 
@@ -328,7 +248,7 @@ a:target {
 #explore-list li {
   display: inline-block;
   text-decoration: none;
-  margin: 5px 5px;
+  margin: 10px 10px;
   padding: 5px 5px;
 }
 
@@ -336,18 +256,11 @@ a:target {
   text-decoration: none;
   padding: 10px 10px;
   margin: 10px 10px;
-  background-color: lightgray;
+  /* background-color: lightgray; */
   border: lightslategrey;
 }
 
 /* END Explore list */
-
-#contact .row .col-lg-6 {
-   /* height: 100%; */
-   /* display: flex; */
-   /* align-items: center; */
-   /* justify-content: center; */
-}
 
 .jumbotron {
   padding: 0px 14px 10px 14px;
@@ -355,9 +268,8 @@ a:target {
   border-radius: 0.5rem;
   /* Center */
   margin: 18px auto;
-  width: 75%;
-  
-  /* align-self: center; */
+  /* width: 75%; */
+  width: 45%;
 }
 
 #FormControlInput1,
@@ -366,7 +278,8 @@ a:target {
 }
 
 #contact {
-  background-image: url("assets/img/Obelisk\ medium\ distance.JPG");
+  /* background-image: url("assets/img/Obelisk\ medium\ distance.JPG"); */
+  background-image: url("assets/img/IMG_4247-3.jpg");
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover;
@@ -412,12 +325,9 @@ a:target {
   background-position-y: 150px;
 }
 
-.jumbotron .form-group .form-question {
-}
-
 .fab {
   color: whitesmoke;
-  /* font-size: 90px; */
+  transition: all 0.2s ease-in-out;
 }
 
 .fab:hover {
@@ -428,7 +338,49 @@ a:target {
   color: grey;
 }
 
+/* Media query */
+@media screen and (max-width: 992px) {
+  .navbar {
+    margin-top: 0px;
+  }
+  h3 {
+    font-size: 5vw;
+  }
+  .navbar-brand {
+    font-size: 4vw;
+  }
+  #limestone {
+    display: none;
+  }
+  .navbar-collapse {
+    /* height: 250px; */
+    height: auto;
+    padding-bottom: 0px;
+  }
+  .nav-item {
+    width: 100%;
+  }
+  .nav-item a {
+    font-size: 4.5vw;
+    outline: blanchedalmond;
+    padding: 20px;
+  }
+  #book-now {
+    font-size: 4.5vw;
+    width: 100%;
+    height: 100%;
+  }
+  .jumbotron {
+    width: 85%;
+  }
+  .navbar-nav li:last-child > a {
+    padding: 0px;
+  }
+}
+
+/* END Media query */
+
 * {
-  /* outline: 1px solid red; */
+  outline: 1px solid red;
   outline-offset: -1px;
 }
