@@ -14,8 +14,13 @@ html {
   padding-left: 2px;
 }
 
+#robe-sa {
+  font-size: 16px;
+  display: none;
+}
+
 section {
-  margin: 24px 0px;
+  margin: 22px 0px;
   /* padding-left: 1000px; */
 }
 
@@ -26,13 +31,15 @@ section {
 }
 
 h3 {
-  font-size: 1.6vw;
+  /* font-size: 1.6vw; */
+  font-size: 20px;
   padding: 8px 4px;
   margin: 0px 0px;
+  margin-top: 4px;
   text-align: center;
   background-color: rgb(76, 146, 189);
   color: white;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   font-family: "Crete Round", serif;
 }
 
@@ -108,11 +115,11 @@ h5 {
   height: 22vh;
 }
 
-#obelisk-nav-logo {
+/* #obelisk-nav-logo {
   border-radius: 65px;
   height: auto;
   width: 65px;
-}
+} */
 
 #price {
   font-style: italic;
@@ -170,6 +177,7 @@ footer .container-fluid {
 
 /* Carousel */
 #carouselFade {
+  /* padding-bottom: 12px; */
 }
 
 .carousel-item img {
@@ -195,15 +203,15 @@ footer .container-fluid {
 }
 
 #explore .row {
-  min-height: 40vh;
+  min-height: 30vh;
 }
 
 #contact .row {
-  min-height: 40vh;
+  min-height: 30vh;
 }
 
 #reviews .row {
-  min-height: 40vh;
+  min-height: 30vh;
 }
 
 /* to offset links by height of navbar. not working */
@@ -243,19 +251,24 @@ a:target {
 #explore-list {
   list-style-type: none;
   text-align: center;
+  padding-left: 0px;
+  /* display: inline-block; */
 }
 
 #explore-list li {
-  display: inline-block;
+  /* display: block; */
   text-decoration: none;
-  margin: 10px 10px;
-  padding: 5px 5px;
+  font-size: 18px;
+  margin: 10px 0;
+  padding: 10px 0;
+  /* padding: 5px 5px; */
 }
 
 #explore-list li a {
   text-decoration: none;
-  padding: 10px 10px;
-  margin: 10px 10px;
+  /* padding: 10px 0; */
+  /* width: 100%; */
+  /* margin: 0px 10px; */
   /* background-color: lightgray; */
   border: lightslategrey;
 }
@@ -269,12 +282,12 @@ a:target {
   /* Center */
   margin: 18px auto;
   /* width: 75%; */
-  width: 45%;
+  width: 40%;
 }
 
 #FormControlInput1,
 #FormControlInput2 {
-  width: 70%;
+  width: 100%;
 }
 
 #contact {
@@ -338,6 +351,12 @@ a:target {
   color: grey;
 }
 
+#obelisk-nav-logo {
+  border-radius: 65px;
+  height: auto;
+  width: 65px;
+}
+
 /* Media query */
 @media screen and (max-width: 992px) {
   .navbar {
@@ -347,10 +366,15 @@ a:target {
     font-size: 5vw;
   }
   .navbar-brand {
-    font-size: 4vw;
+    /* font-size: 4vw; */
+    font-size: 14px;
   }
   #limestone {
     display: none;
+  }
+  #obelisk-nav-logo {
+    width: auto;
+    height: 40px;
   }
   .navbar-collapse {
     /* height: 250px; */
@@ -376,10 +400,16 @@ a:target {
   .navbar-nav li:last-child > a {
     padding: 0px;
   }
+  .col-lg-6 {
+    margin: 2px;
+  }
+  #robe-sa {
+    display: none;
+  }
 }
 
 /* END Media query */
-
+/* Testing */
 * {
   outline: 1px solid red;
   outline-offset: -1px;
