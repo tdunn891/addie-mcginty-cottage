@@ -14,10 +14,6 @@ html {
   padding-left: 2px;
 }
 
-.col-sm-6 {
-   /* margin: 1px 0; */
-}
-
 #robe-sa {
   font-size: 16px;
   display: none;
@@ -25,7 +21,6 @@ html {
 
 section {
   margin: 12px 0px;
-  /* padding-left: 1000px; */
 }
 
 .navbar {
@@ -34,8 +29,7 @@ section {
   padding: 10px 10px;
 }
 
-h3 {
-  /* font-size: 1.6vw; */
+h2 {
   font-size: 20px;
   padding: 8px 4px;
   margin: 0px 0px;
@@ -43,7 +37,6 @@ h3 {
   text-align: center;
   background-color: rgb(76, 146, 189);
   color: white;
-  /* border-radius: 10px; */
   font-family: "Crete Round", serif;
 }
 
@@ -115,19 +108,11 @@ h5 {
 /* Background image */
 .sea-green {
   background-image: url("assets/img/Sea\ w\ green\ foreground.JPG");
-  /* background-image: url("assets/img/Obelisk\ medium\ distance.JPG"); */
-  /* background-image: url("assets/img/IMG_4247-3.jpg"); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 22vh;
 }
-
-/* #obelisk-nav-logo {
-  border-radius: 65px;
-  height: auto;
-  width: 65px;
-} */
 
 #price {
   font-style: italic;
@@ -147,8 +132,8 @@ h5 {
 }
 
 #SAL-logo {
-  max-height: 50px;
-  border-radius: 10px;
+  max-height: 40px;
+  border-radius: 4px;
 }
 
 .amenities-list {
@@ -185,12 +170,9 @@ footer .container-fluid {
 }
 
 /* Carousel */
-#carouselFade {
-  /* padding-bottom: 12px; */
-}
-
 .carousel-item img {
   min-width: auto;
+  overflow: hidden;
 }
 
 /* Reviews */
@@ -207,7 +189,7 @@ footer .container-fluid {
 }
 
 .blockquote p {
-  font-size: 1.6vh;
+  font-size: 15px;
   font-style: italic;
 }
 
@@ -253,7 +235,7 @@ a:target {
 
 /* Robe Council logo */
 #robe-com-au {
-  height: 50px;
+  height: 40px;
 }
 
 /* Explore list */
@@ -261,24 +243,17 @@ a:target {
   list-style-type: none;
   text-align: left;
   padding-left: 0px;
-  /* display: inline-block; */
 }
 
 #explore-list li {
-  /* display: block; */
   text-decoration: none;
   font-size: 18px;
-  margin: 8px 0;
-  padding: 8px 0;
-  /* padding: 5px 5px; */
+  margin: 6px 0;
+  padding: 6px 0;
 }
 
 #explore-list li a {
   text-decoration: none;
-  /* padding: 10px 0; */
-  /* width: 100%; */
-  /* margin: 0px 10px; */
-  /* background-color: lightgray; */
   border: lightslategrey;
 }
 
@@ -290,7 +265,6 @@ a:target {
   border-radius: 0.5rem;
   /* Center */
   margin: 18px auto;
-  /* width: 75%; */
   width: 40%;
 }
 
@@ -300,7 +274,6 @@ a:target {
 }
 
 #contact {
-  /* background-image: url("assets/img/Obelisk\ medium\ distance.JPG"); */
   background-image: url("assets/img/IMG_4247-3.jpg");
   background-repeat: no-repeat;
   background-position: right;
@@ -311,17 +284,8 @@ a:target {
   padding-top: 8px;
 }
 
-.footer-content p {
-  font-size: 0.8rem;
-  text-align: center;
-}
-
 .footer-content a {
   color: honeydew;
-}
-
-.weatherwidget-io {
-  border-radius: 16px;
 }
 
 /* Reviews */
@@ -334,8 +298,8 @@ a:target {
   font-size: 13px;
 }
 
+/* Parallax scrolling effect */
 .parallax {
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -345,6 +309,17 @@ a:target {
 #addie-branch {
   background-image: url("assets/img/Addie_Sign.JPG");
   background-position-y: 150px;
+}
+
+#footer-text {
+  font-size: 12px;
+}
+
+.fa-angle-up {
+  vertical-align: middle;
+  font-size: 18px;
+  float: right;
+  padding-right: 5px;
 }
 
 .fab {
@@ -366,16 +341,21 @@ a:target {
   width: 65px;
 }
 
+iframe {
+   width: 100%;
+   height: 100%;
+   border: 0;
+}
+
 /* Media query */
 @media screen and (max-width: 992px) {
   .navbar {
     margin-top: 0px;
   }
-  h3 {
+  h2 {
     font-size: 5vw;
   }
   .navbar-brand {
-    /* font-size: 4vw; */
     font-size: 14px;
   }
   #limestone {
@@ -386,7 +366,6 @@ a:target {
     height: 40px;
   }
   .navbar-collapse {
-    /* height: 250px; */
     height: auto;
     padding-bottom: 0px;
   }
@@ -409,19 +388,30 @@ a:target {
   .navbar-nav li:last-child > a {
     padding: 0px;
   }
-  .socials-list li {
-   /* width: 1px !important; */
-  }
   .col-lg-6 {
-    margin: 7px;
+    margin: 7px 0px;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  .blockquote p {
+    font-size: 12px;
+  }
+  #price {
+    font-style: italic;
+    font-size: 14px;
+    padding-top: 6px;
+    /* float: left; */
+  }
+  #other-amenities {
+    font-size: 13px;
   }
   #robe-sa {
     display: none;
   }
 }
-
 /* END Media query */
-/* Testing */
+
+/* Used for testing */
 * {
   outline: 1px solid red;
   outline-offset: -1px;
