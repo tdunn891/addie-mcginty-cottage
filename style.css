@@ -269,8 +269,8 @@ a:target {
   width: 40%;
 }
 
-#FormControlInput1,
-#FormControlInput2 {
+#NameInput,
+#EmailInput {
   width: 100%;
 }
 

@@ -98,6 +98,10 @@ The first feature a user wants to see is images and features of the house itself
 
 Wireframes can be found here:
 <!-- Insert link  -->
+[Wireframe1](Wireframes_1.png)
+
+[Wireframe2](Wireframes_2.png)
+
 
 #### Surface
 
