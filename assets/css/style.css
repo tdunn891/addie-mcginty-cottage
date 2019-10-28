@@ -108,7 +108,6 @@ h5 {
 /* Background image */
 .sea-green {
   background-image: url("assets/img/Sea\ w\ green\ foreground.JPG");
-  /* background-image: url("img/Sea\ w\ green\ foreground.JPG"); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

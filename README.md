@@ -103,7 +103,7 @@ Wireframes can be found here:
 
 Colours: The shade of blue was chosen as the dominant colour to convey a relaxed, sea-side feel.
 
-### User Stories\
+### User Stories
 <!-- Story of how a user interacts with a system in some way -->
 User 1 - "I want to take my family of 5."
 User 2 - "I have a large boat trailer, will there be adequate parking?"
@@ -117,14 +117,15 @@ User 4 - "Are there decent restaurants and pubs in walking distance?"
 <!-- Include the feature matrix -->
 
 ### Existing Features
-Feature 1 - Carousel of images of inside & outside the cottage, and Robe surrounds.
-Feature 2 - Amenities list and sleeping arrangements diagram.
-Feature 3 - Google Map of cottage location.
-Feature 4 - Contact Form for further enquiries.
-Feature 5 - Booking button.
-Feature 6 - Reviews from previous tenants.
-Feature 7 - Explore links (Getting Here, Tourist Map, What to Do, What to Eat).
-Feature 7 - Social Links to official Robe Tourism pages and Robe Coastal Holidays website.
+
+- Feature 1: Carousel of images of inside & outside the cottage, and Robe surrounds.
+- Feature 2: Amenities list and sleeping arrangements diagram.
+- Feature 3: Google Map of cottage location.
+- Feature 4: Contact Form for further enquiries.
+- Feature 5: Booking button.
+- Feature 6: Reviews from previous tenants.
+- Feature 7: Explore links (Getting Here, Tourist Map, What to Do, What to Eat).
+- Feature 7: Social Links to official Robe Tourism pages and Robe Coastal Holidays website.
 
 ### Features Left to Implement
 Potential Feature 1 - Current and forecast weather conditions.
@@ -175,10 +176,10 @@ The Explore links (Getting Here, Tourist Map, What to Do, What to Eat) direct th
 
 ### Media
 
-The following images of the inside of the house were obtained from [Book Robe Accomodation](http://www.bookrobeaccommodation.com.au/accommodation/3)
+Several images of the inside of the house were obtained from [Book Robe Accomodation](http://www.bookrobeaccommodation.com.au/accommodation/3)
 
 ### Acknowledgements
 
-Thank you to my father and grandmother for providing feedback.
+Thank you to my father and grandmother for providing useful feedback.
 
 <!-- END CREDITS -->
