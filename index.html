@@ -156,7 +156,7 @@
          <!-- The Cottage Subsection takes up 6 columns on Large Devices and above -->
          <div class="col-lg-6">
             <h2><i class="fas fa-home"></i> The Cottage</h2>
-            <br>
+            <!-- <br> -->
             <p>Unwind at the cosy and charming Addie McGinty's, located a stone's throw away from Robe's main street
                of
                restaurants, shops, cafés and swimming beach.</p>
@@ -234,7 +234,7 @@
          <!-- Explore subsection takes up half the available columns on Large Devices and above -->
          <div class="col-lg-6">
             <h2><i class="fas fa-map-marker-alt"></i> Explore</h2>
-            <br>
+            <!-- <br> -->
             <p>Robe is one of southern Australia's most popular holiday destinations, attracting visitors from across
                the country and overseas because of its unspoilt scenery, old-world charm, laidback lifestyle and
                popular eateries, serving fresh local produce and premium local wines.</p>
@@ -427,12 +427,14 @@
             document.getElementById("navbar").style.margin = "0px 0px";
             document.getElementById("obelisk-nav-logo").style.width = "40px";
             document.getElementById("obelisk-nav-logo").style.padding = "2px 2px";
+            document.getElementById("limestone").style.display = "none";
          } else {
             // when near top
             document.getElementById("navbar").style.padding = "10px 10px";
             document.getElementById("navbar").style.margin = "12px 0px";
-            document.getElementById("obelisk-nav-logo").style.width = "65px";
+            document.getElementById("obelisk-nav-logo").style.width = "62px";
             document.getElementById("obelisk-nav-logo").style.height = "auto";
+            document.getElementById("limestone").style.display = "block";
          }
       }
    </script>

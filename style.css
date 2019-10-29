@@ -7,14 +7,15 @@ html {
 body,
 html {
   width: 100%;
+  max-width: 100%;
 }
 
 /* Subtitle span - "Limestone Coast | Robe, South Australia" */
 #limestone {
   font-size: 1vw;
-  display: inline-block;
-  margin-left: 70px;
-  margin-right: 5px;
+  /* display: inline-block; */
+  /* margin-left: 70px; */
+  /* margin-right: 5px; */
   font-family: "Crete Round", serif;
 }
 
@@ -33,7 +34,9 @@ section {
 .navbar {
   background-color: rgba(51, 60, 55, 0.8);
   margin-top: 12px;
-  padding: 10px 10px;
+  /* padding: 10px 10px; */
+  max-width: 100%;
+  width: 100%;
 }
 
 /* Navigation Bar Title */
@@ -41,12 +44,13 @@ h1 {
   display: inline;
   font-family: "Crete Round", serif;
   font-size: 1.7vw;
-  margin-left: 14px;
+  /* margin-left: 14px; */
 }
 
 /* Navigation Items */
 .navbar-nav {
   align-items: center;
+  max-width: 100%;
 }
 
 /* Call to Action button "Make Booking" */
@@ -270,6 +274,7 @@ a:target {
 
 /* Explore list item anchors */
 #explore-list li a {
+  padding: 4px;
   text-decoration: none;
   border: lightslategrey;
 }
@@ -362,9 +367,10 @@ a:target {
 
 /* Obelisk Navigation Logo */
 #obelisk-nav-logo {
-  border-radius: 65px;
+  border-radius: 62px;
+  padding: 2px 2px;
   height: auto;
-  width: 65px;
+  width: 62px;
 }
 
 /* Embedded Google Map */
@@ -375,32 +381,22 @@ iframe {
 }
 
 /* Media query for devices with width less than 992px */
+/* Initially designed as styles for smaller than 992px screens */
 /* @media (min-width: 992px) { */
 @media screen and (max-width: 992px) {
-  .navbar {
-    margin-top: 0px;
-  }
-  h2 {
-    font-size: 5vw;
-  }
-  .navbar-brand, h1 {
-    font-size: 14px;
-  }
-  #limestone {
-    display: none;
-  }
-  #obelisk-nav-logo {
-    width: auto;
-    height: 40px;
-  }
+  /* h2 { */
+  /* font-size: 5vw; */
+  /* } */
   .nav-item {
     width: 100%;
   }
+  /* Nav item links */
   .nav-item a {
     font-size: 4.4vw;
     outline: blanchedalmond;
     padding: 20px;
   }
+  /* make booking button */
   #book-now {
     font-size: 4.5vw;
     width: 100%;
@@ -414,8 +410,6 @@ iframe {
   }
   .col-lg-6 {
     margin: 7px 0px;
-    padding-left: 4px;
-    padding-right: 4px;
   }
   .blockquote p {
     font-size: 12px;
@@ -425,11 +419,119 @@ iframe {
     padding-top: 6px;
   }
   #other-amenities {
-    font-size: 13px;
+    font-size: 14px;
   }
-  /* Hide span */
-  #robe-sa {
-    display: none;
+}
+
+
+.col-lg-6 p {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+/* MEDIA QUERIES */
+
+/* Mobile */
+@media (min-width: 320px) {
+  h1 {
+    font-size: 4.5vw;
+  }
+  .nav-item a,
+  #book-now {
+    font-size: 4.5vw;
+  }
+  h2 {
+    font-size: 5.5vw;
+  }
+  #limestone {
+    position: relative;
+    top: -4px;
+    font-size: 12px;
+    text-align: end;
+    margin-bottom: 0px;
+    padding-bottom: 0;
+  }
+  .col-lg-6 p {
+    font-size: 14px;
+  }
+  #explore-list li {
+    font-size: 16px;
+    padding: 4px;
+  }
+}
+
+/* Small Tablet */
+@media (min-width: 576px) {
+  .navbar-brand,
+  h1 {
+    font-size: 3.2vw;
+  }
+  .nav-item a,
+  #book-now {
+    font-size: 3vw;
+  }
+  h2 {
+    font-size: 3.2vw;
+  }
+  /* .nav-item {
+    width: 100%;
+  } */
+}
+
+/* Tablets */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3.5vw;
+  }
+  #limestone {
+    font-size: 2.3vw;
+  }
+  .nav-item a,
+  #book-now {
+    font-size: 3.2vw;
+  }
+  h2 {
+    font-size: 3.2vw;
+  }
+  /* .nav-item {
+    width: 100%;
+  } */
+}
+
+/* Large Tablet, Small Laptops and above */
+@media (min-width: 992px) {
+  h1 {
+    font-size: 2.3vw;
+  }
+  #limestone {
+    font-size: 1.5vw;
+  }
+  .nav-item a,
+  #book-now {
+    font-size: 1.35vw;
+  }
+  h2 {
+    font-size: 2vw;
+  }
+}
+
+/* Extra Large devices  */
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 1.8vw;
+  }
+  #limestone {
+    font-size: 1.2vw;
+  }
+  .nav-item a,
+  #book-now {
+    font-size: 1.1vw;
+  }
+  h2 {
+    font-size: 1.4vw;
+  }
+  .col-lg-6 p {
+    font-size: 17px;
   }
 }
 
