@@ -1,5 +1,4 @@
 /* Smooth scroll after clickling Navigation Bar items */
-
 html {
   scroll-behavior: smooth;
 }
@@ -12,11 +11,9 @@ html {
 
 /* Subtitle span - "Limestone Coast | Robe, South Australia" */
 #limestone {
-  font-size: 1vw;
-  /* display: inline-block; */
-  /* margin-left: 70px; */
-  /* margin-right: 5px; */
   font-family: "Crete Round", serif;
+  display: block;
+  /* display: none; */
 }
 
 /* Span - Robe, South Australia */
@@ -34,13 +31,14 @@ section {
 .navbar {
   background-color: rgba(51, 60, 55, 0.8);
   margin-top: 12px;
-  /* padding: 10px 10px; */
-  max-width: 100%;
-  width: 100%;
+  padding: 10px 10px;
+  /* max-width: 100%; */
+  /* width: 100%; */
 }
 
 /* Navigation Bar Title */
 h1 {
+   vertical-align: middle;
   display: inline;
   font-family: "Crete Round", serif;
   font-size: 1.7vw;
@@ -218,7 +216,7 @@ footer .container-fluid {
 }
 
 .blockquote p {
-  font-size: 15px;
+  /* font-size: 15px; */
   font-style: italic;
 }
 
@@ -285,7 +283,7 @@ a:target {
   background-color: rgba(51, 60, 55, 0.5);
   border-radius: 0.5rem;
   margin: 18px auto;
-  width: 40%;
+  width: 100%;
 }
 
 /* Form Inputs (Name, Email) */
@@ -367,10 +365,12 @@ a:target {
 
 /* Obelisk Navigation Logo */
 #obelisk-nav-logo {
-  border-radius: 62px;
-  padding: 2px 2px;
+  /* display: inline-block; */
+  /* float: left; */
+  border-radius: 48px;
+  /* padding: 2px 2px; */
   height: auto;
-  width: 62px;
+  width: 48px;
 }
 
 /* Embedded Google Map */
@@ -380,53 +380,13 @@ iframe {
   border: 0;
 }
 
-/* Media query for devices with width less than 992px */
-/* Initially designed as styles for smaller than 992px screens */
-/* @media (min-width: 992px) { */
-@media screen and (max-width: 992px) {
-  /* h2 { */
-  /* font-size: 5vw; */
-  /* } */
-  .nav-item {
-    width: 100%;
-  }
-  /* Nav item links */
-  .nav-item a {
-    font-size: 4.4vw;
-    outline: blanchedalmond;
-    padding: 20px;
-  }
-  /* make booking button */
-  #book-now {
-    font-size: 4.5vw;
-    width: 100%;
-    height: 100%;
-  }
-  .jumbotron {
-    width: 100%;
-  }
-  .navbar-nav li:last-child > a {
-    padding: 0px;
-  }
-  .col-lg-6 {
-    margin: 7px 0px;
-  }
-  .blockquote p {
-    font-size: 12px;
-  }
-  #price {
-    font-size: 14px;
-    padding-top: 6px;
-  }
-  #other-amenities {
-    font-size: 14px;
-  }
+.col-lg-6 p {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
-
-.col-lg-6 p {
-  margin-top: 4px;
-  margin-bottom: 4px;
+.blockquote p {
+  font-size: 13px;
 }
 
 /* MEDIA QUERIES */
@@ -444,12 +404,14 @@ iframe {
     font-size: 5.5vw;
   }
   #limestone {
-    position: relative;
-    top: -4px;
+    /* display: none; */
+    /* position: relative; */
+    /* top: -12px; */
     font-size: 12px;
     text-align: end;
+    /* padding-top: 2px; */
     margin-bottom: 0px;
-    padding-bottom: 0;
+    padding-bottom: 0px;
   }
   .col-lg-6 p {
     font-size: 14px;
@@ -457,6 +419,9 @@ iframe {
   #explore-list li {
     font-size: 16px;
     padding: 4px;
+  }
+  .col-lg-6 {
+    margin-bottom: 2px;
   }
 }
 
@@ -473,12 +438,12 @@ iframe {
   h2 {
     font-size: 3.2vw;
   }
-  /* .nav-item {
-    width: 100%;
-  } */
+  .blockquote p {
+    font-size: 14px;
+  }
 }
 
-/* Tablets */
+/* Medium Tablet */
 @media (min-width: 768px) {
   h1 {
     font-size: 3.5vw;
@@ -493,9 +458,12 @@ iframe {
   h2 {
     font-size: 3.2vw;
   }
-  /* .nav-item {
-    width: 100%;
-  } */
+  .jumbotron {
+    width: 60%;
+  }
+  .blockquote p {
+    font-size: 1.4vw;
+  }
 }
 
 /* Large Tablet, Small Laptops and above */
@@ -512,6 +480,12 @@ iframe {
   }
   h2 {
     font-size: 2vw;
+  }
+  .jumbotron {
+    width: 60%;
+  }
+  .blockquote p {
+    font-size: 1.3vw;
   }
 }
 
@@ -533,10 +507,36 @@ iframe {
   .col-lg-6 p {
     font-size: 17px;
   }
+  .jumbotron {
+    width: 40%;
+  }
+  .blockquote p {
+    font-size: 0.9vw;
+  }
+}
+
+/* Media query applies when Navigation Bar is collapsed (screen sizes less than 992px)  */
+@media (max-width: 992px) {
+  /* Nav item */
+  .nav-item {
+    width: 100%;
+  }
+  /* Nav item links */
+  .nav-item a {
+    font-size: 4.4vw;
+    outline: blanchedalmond;
+    padding: 20px;
+  }
+  /* Make Booking button */
+  #book-now {
+    font-size: 4.5vw;
+    width: 100%;
+    height: 100%;
+  }
 }
 
 /* Used for testing */
 * {
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
   outline-offset: -1px;
 }
