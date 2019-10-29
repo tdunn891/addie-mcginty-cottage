@@ -4,6 +4,8 @@
 
 This project aims ultimately to increase annual holiday rental income of my family's beachhouse in Robe, South Australia.
 
+<!-- ![Robe Logo](/assets/img/favicon.ico) -->
+
 ## UX
 
 ### 5 Planes of UX
@@ -132,8 +134,11 @@ User 4 - "Are there decent restaurants and pubs in walking distance?"
 - Feature 7: Social Links to official Robe Tourism pages and Robe Coastal Holidays website.
 
 ### Features Left to Implement
+
 Potential Feature 1 - Current and forecast weather conditions.
+
 Potential Feature 2 - Livestream of Robe main beach.
+
 Potential Feature 3 - Currently the data entered into the Enquiry form doesn't go anyway, a simple 'Thank you' modal is shown.
 
 <!-- END FEATURES -->
@@ -153,10 +158,13 @@ Potential Feature 3 - Currently the data entered into the Enquiry form doesn't g
 - [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) : used extensively to ensure device responsiveness.
 - [Paint S](https://apps.apple.com/us/app/paint-s/id736473980?mt=12) : used for wireframe development.
 - [Adobe Lightroom](https://lightroom.adobe.com/) : used to edit images.
+- [W33 CSS Validator](https://jigsaw.w3.org/css-validator/validator) : used to validate CSS.
 
 ## Testing
 
-Chrome Developer Tools were used extensively 
+Chrome Developer Tools were used extensively during development.
+
+The Chrome Developer Audit tool, "Lighthouse" was used to test Performace, Accessibility, Best Practices.
 
 The site was tested on the following browsers: Firefox, Chrome, Safari and the following physical devices: OnePlus 5 (Android), iPhone 7 (iOS)
 
