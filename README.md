@@ -4,14 +4,9 @@
 
 This project aims ultimately to increase annual holiday rental income of my family's beach cottage in Robe, South Australia.
 
-<!-- ![Robe Logo](/assets/img/favicon.ico) -->
-
 ## User Experience Design
 
-<!-- ### 5 Planes of UX -->
-<!-- https://medium.com/omarelgabrys-blog/ux-a-quick-glance-about-the-5-elements-of-user-experience-part-2-a0da8798cd52 -->
 #### Strategy
-<!-- The reason for the product, application or the site, why we create it, who are we doing this for, why people are willing to use it, why they need it. The goal here is to define the user needs and business objectives. -->
 
 In order to set the business objectives and user needs of the site, a meeting was set up with the client, the owner of Addie McGinty's cottage, my father, Phil Dunn.
 
@@ -34,7 +29,6 @@ The target audience is holidaymakers, particularly families, looking for a holid
 - Make a booking.
 
 The following Opportunities/Problems table was drafted with the client to determine strategic priorities UX efforts should address (in this order):
-
 
 | Opportunity/Problem                         | Importance     | Viablility/Feasibility  |
 | ------------------------------------------- |:--------------:| -----------------------:|
@@ -92,9 +86,6 @@ Due to the low complexity and low amount of content, the architecture employed i
 The organising principle and order of the content is tied to the user needs - Property Features, Explore, Contact, Reviews. The first section the user is presented with is images and features of the house itself. Following this, the Explore section which includes the Google Map location. The Enquiry section with user form then follows, as this is the point in the user's visit where any information not yet provided can be asked for. Finally, the user can read reviews to encourage a Call to Action (Make Booking).  
 
 #### Skeleton
-<!-- Interface Design: The best arrangement and visual presentation of elements 
-Navigation Design: Intuitive and completion of tasks  -->
-<!-- Concered with What form will application take, how will users get around how will we present the content? -->
 
 ##### Wireframes
 
@@ -144,8 +135,6 @@ Potential Feature 2 - Livestream of Robe main beach.
 
 Potential Feature 3 - Currently the data entered into the Enquiry form isn't sent anywhere - a simple 'Thank you' modal is shown. Ideally this data should be sent to an email address or server database.
 
-<!-- END FEATURES -->
-
 ## Technologies Used
 
 - [HTML5](https://www.w3.org/html) : used for page structure.
@@ -193,7 +182,6 @@ The following images of the inside of the house were obtained from [Book Robe Ac
 - [Living Space](https://www.bookrobeaccommodation.com.au/database/images/3_23.jpg)
 - [Living Space Reverse](https://www.bookrobeaccommodation.com.au/database/images/3_24.jpg)
 - [Two Beds](https://www.bookrobeaccommodation.com.au/database/images/3_210.jpg)
-
 
 Map showing Robe's location in relation to Australia obtained from [Robe Tourism](http://robe.com.au) website.
 
