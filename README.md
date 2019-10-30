@@ -2,24 +2,38 @@
 
 ## Project Purpose
 
-This project aims ultimately to increase annual holiday rental income of my family's beachhouse in Robe, South Australia.
+This project aims ultimately to increase annual holiday rental income of my family's beach cottage in Robe, South Australia.
 
 <!-- ![Robe Logo](/assets/img/favicon.ico) -->
 
-## UX
+## User Experience Design
 
-### 5 Planes of UX
+<!-- ### 5 Planes of UX -->
 <!-- https://medium.com/omarelgabrys-blog/ux-a-quick-glance-about-the-5-elements-of-user-experience-part-2-a0da8798cd52 -->
 #### Strategy
 <!-- The reason for the product, application or the site, why we create it, who are we doing this for, why people are willing to use it, why they need it. The goal here is to define the user needs and business objectives. -->
 
-The business objective for the website is to increase rental income from our family's holiday rental property. Over the previous 10 years, the house has yielding very low rental income, with only several tenants per year. The tourism sector in Robe is on the rise (annual domestic vistor nights increasing 7%), which makes this a prime opportunity for this site to capture this expanding holiday rental market. The house's existing Google Maps listing will be populated with a link to this site.
+In order to set the business objectives and user needs of the site, a meeting was set up with the client, the owner of Addie McGinty's cottage, my father, Phil Dunn.
 
-Who For? The site is aimed at holiday makers looking for a holiday rental on coast of South Australia.
+The client gave background that the existing marketing strategy for the property was ineffective - simply a listing on the holiday rentals website. Over the previous 10 years, this strategy has yielded very low annual rental income, despite the uptick in vistor numbers to the town. The client agreed that a dedicated website (this project) would be an ideal means to take advantage of this trend.
 
-Why people are willing to use it? Holiday makers want to make informed decision about their holiday rental.
+The house's existing Google Maps listing will be populated with a link to this site.
 
-Why they need it? Potential tenants need to learn more about the property before they can make a booking.
+The client expressed the following Business Objectives and User Needs.
+
+Business Objectives:
+
+- Increase annual rental bookings (and thereby income) by 20%.
+- Increase awareness of the cottage as desirable place to stay. 
+- Increase awareness of Robe as a domestic holiday destination.
+- Showcase nearby attractions and activities in Robe.
+
+User Needs/Goals:
+
+The target audience is holidaymakers, particularly families, looking for a holiday rental on the Limestone Coast.
+
+- Make an informed decision as to whether the property is suitable for their family's holiday needs in terms of location, amenities, price.
+- Make a booking.
 
 #### Scope
 <!-- Defines the functional and content requirements. What are the features, and content contained in the application or product. The requirements should fulfill and be aligned with the strategic goals. -->
@@ -34,8 +48,8 @@ Feature Set:
 - locate the property on a map.
 - see the sleeping capacity and room configuration.
 - see the nightly rate.
-- make a booking.
 - see reviews from past holiday tenants.
+- make a booking.
 - be directed to relevant social links.
 - make an enquiry for further information.
 
@@ -44,12 +58,12 @@ Feature Set:
 
 In order to provide the value of the above functions, the following content is required:
 
-- Images of the interior and exterior of the property.
+- Images of the interior and exterior of the property, as well as nearby beaches.
 - Embedded Google Map showing the property location and surrounding area.
 - Icons (Font Awesome, Material Icons) to visually aide the user.
 - User Form to allow enquiries.
 - Text for previous tenant reviews and property description.
-- Button to allow bookings to be made. The button directs the user to the real booking site: www.bookrobeaccommodation.com.au/accommodation/3
+- Button to allow bookings to be made. The button directs the user to the real [booking site](https://www.bookrobeaccommodation.com.au/accommodation/3).
 
 #### Structure
 <!-- Defines how user interact with the product, how system behave when user interact, how it’s organized, prioritized, and how much of it.  -->
@@ -62,19 +76,16 @@ effectively communicates interactivity and functionality(what user can do).
 informs user about state changes(file has been saved, or any feedback), while they interact.
 prevents user error or mistakes, like the system asks user to confirm potentially harmful action(i.e. deletion). -->
 
-Given the basic, informational nature of the site, a linear and predictable structure is most appropriate. The content is all on one continuous page to encourage particularly mobile-users to view all of the content easily without having to tap/click around i.e. to prevent cognitive overload.
-A navigation bar is provided (which collapses into a toggler) to allow the user to quickly jump to a specific section.
-The call to action is the 'MAKE BOOKING' button in the navigation bar.
-
-Feedback:
-
-- Navigation and social links change colour on hover, which encourages the user to click.
-- Enquiry user form requires that all fields (Name, Email, Enquiry) are populated and alerts the user to any fields which require attention e.g. an email address without a '@'. Once the submit button is clicked, a modal is shown to provide feedback to the user that their enquiry was sent successfully
+Given the simple, informational nature of the content, a single page structure is most appropriate. The content is all on one continuous page to encourage (particularly mobile-users) to view all of the content easily without having to click around i.e. to prevent cognitive overload. A navigation bar is provided (which collapses into a toggler) to allow the user to quickly jump to a specific section. The Call To Action is the 'MAKE BOOKING' button in the navigation bar.
 
 Consistency & Predictability:
 
-- Users of holiday rental sites have been extrememly accustomed to following appropriate visual icons/cues to guide them. Icons have been employed consistent with those used in other booking sites to take advantage of this. Icons such as Bedroom, TW, Wifi, GPS Pin for location etc.
-- Web and mobile users are accustomed to a top navbar who's items collapse into a 'burger icon' on mobile devices.
+Users of holiday rental sites are are extrememly accustomed to following appropriate visual icons/cues to guide them. Icons have been employed consistent with those used in other booking sites to take advantage of this - icons such as Bedroom, TV, Wifi, GPS Pin to represent location etc. Web and mobile users are accustomed to a top navbar whose items collapse into a 'burger icon' on mobile devices.
+
+Feedback:
+
+Navigation and social links change colour on hover, which shows users that they are clickable. The Enquiry user form requires that all fields (Name, Email, Enquiry) are populated, and alerts the user to any fields which require attention e.g. an email address without a '@' symbol. Once the submit button is clicked, a modal is shown to provide feedback to the user that their enquiry was sent successfully.
+
 
 ##### Information Architecture
 <!-- Organisation, arrangement and priority of content -->
@@ -85,25 +96,20 @@ makes it easy to understand and move through information presented.
 flexible to accommodate growth and adapt to change.
 appropriate for the audience. -->
 
-Due to the low complexity and small amount of content, the architecture employed is single page, as well as several links to external websites (social links, booking website).
+Due to the low complexity and low amount of content, the architecture employed is single page, including several links to external websites (social links, booking website).
 
-The organising principle of the content is tied to the user needs - Property Features, Explore, Reviews, Contact.
-
+The organising principle and order of the content is tied to the user needs - Property Features, Explore, Contact, Reviews. The first section the user is presented with is images and features of the house itself. Following this, the Explore section which includes the Google Map location. The Enquiry section with user form then follows, as this is the point in the user's visit where any information not yet provided can be asked for. Finally 
 
 #### Skeleton
 <!-- Interface Design: The best arrangement and visual presentation of elements 
 Navigation Design: Intuitive and completion of tasks  -->
 <!-- Concered with What form will application take, how will users get around how will we present the content? -->
-The first feature a user wants to see is images and features of the house itself.
 
 ##### Wireframes
 
-Wireframes can be found here:
-<!-- Insert link  -->
-[Wireframe1](Wireframes_1.png)
+[Desktop Wireframes](Desktop_Wireframes.jpeg)
 
-[Wireframe2](Wireframes_2.png)
-
+[Mobile Wireframes](Mobile_Wireframes.jpeg)
 
 #### Surface
 
@@ -139,7 +145,7 @@ Potential Feature 1 - Current and forecast weather conditions.
 
 Potential Feature 2 - Livestream of Robe main beach.
 
-Potential Feature 3 - Currently the data entered into the Enquiry form doesn't go anyway, a simple 'Thank you' modal is shown.
+Potential Feature 3 - Currently the data entered into the Enquiry form isn't sent anywhere - a simple 'Thank you' modal is shown. Ideally this data should be sent to an email address or server database.
 
 <!-- END FEATURES -->
 
@@ -158,7 +164,7 @@ Potential Feature 3 - Currently the data entered into the Enquiry form doesn't g
 - [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) : used extensively to ensure device responsiveness.
 - [Paint S](https://apps.apple.com/us/app/paint-s/id736473980?mt=12) : used for wireframe development.
 - [Adobe Lightroom](https://lightroom.adobe.com/) : used to edit images.
-- [W33 CSS Validator](https://jigsaw.w3.org/css-validator/validator) : used to validate CSS.
+- [W3C Validator](https://jigsaw.w3.org) : used to validate HTML & CSS.
 
 ## Testing
 
@@ -192,6 +198,6 @@ Several images of the inside of the house were obtained from [Book Robe Accomoda
 
 ### Acknowledgements
 
-Thank you to my father and grandmother for providing useful feedback.
+Thank you to my father and grandmother for providing useful input.
 
 <!-- END CREDITS -->
