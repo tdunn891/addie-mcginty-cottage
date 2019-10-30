@@ -70,7 +70,7 @@ h2 {
   margin: 0px 0px;
   margin-top: 4px;
   text-align: center;
-  background-color: rgb(76, 146, 189);
+  background-color: rgb(76, 146, 189); 
   color: white;
   font-family: "Crete Round", serif;
 }
@@ -184,7 +184,7 @@ h5 {
 #explore .row,
 #contact .row,
 #reviews .row {
-  min-height: 25vh;
+  min-height: 20vh;
 }
 
 /* Footer */
@@ -207,8 +207,8 @@ footer .container-fluid {
 .blockquote {
   background-color: rgba(2, 3, 3, 0.75);
   border-radius: 6px;
-  padding: 16px 20px;
-  margin: 10px 10px;
+  padding: 10px 10px;
+  margin: 8px 6px;
 }
 
 .blockquote p {
@@ -271,6 +271,10 @@ a:target {
   padding: 4px 12px;
   text-decoration: none;
   border: lightslategrey;
+}
+
+#google-map {
+   min-height: 260px;
 }
 
 /* Jumbotron for Enquiry Form */
@@ -387,23 +391,26 @@ iframe {
 /* Mobile */
 @media (min-width: 320px) {
   h1 {
-    font-size: 4.5vw;
+    font-size: 4.8vw;
   }
   .nav-item a,
   #book-now {
-    font-size: 4.5vw;
+    font-size: 5.5vw ;
   }
   h2 {
     font-size: 5.5vw;
   }
+  h5 {
+     font-size: 5vw;
+  }
   #limestone {
-    font-size: 12px;
+    font-size: 4vw;
     text-align: end;
     margin-bottom: 0px;
     padding-bottom: 0px;
   }
   .col-lg-6 p {
-    font-size: 14px;
+    font-size: 5vw;
   }
   #explore-list li {
     font-size: 16px;
@@ -417,11 +424,11 @@ iframe {
 /* Small Tablet */
 @media (min-width: 576px) {
   h1 {
-    font-size: 3.2vw;
+    font-size: 3.4vw;
   }
   .nav-item a,
   #book-now {
-    font-size: 3vw;
+    font-size: 3.5vw;
   }
   h2 {
     font-size: 3.2vw;
@@ -434,18 +441,24 @@ iframe {
 /* Medium Tablet */
 @media (min-width: 768px) {
   h1 {
-    font-size: 3.5vw;
+    font-size: 4vw;
   }
   #limestone {
     font-size: 2.3vw;
   }
   .nav-item a,
   #book-now {
-    font-size: 3.2vw;
+    font-size: 3.5vw;
   }
   h2 {
-    font-size: 3.2vw;
+    font-size: 3.3vw;
   }
+  h5 {
+     font-size: 2.7vw;
+  }
+  .col-lg-6 p {
+   font-size: 3vw;
+ }
   .jumbotron {
     width: 60%;
   }
@@ -466,12 +479,18 @@ iframe {
   h2 {
     font-size: 2vw;
   }
+  h5 {
+     font-size: 1.8vw;
+  }
   .jumbotron {
     width: 60%;
   }
   .blockquote p {
-    font-size: 1.3vw;
+    font-size: 1.5vw;
   }
+  .col-lg-6 p {
+   font-size: 1.8vw;
+ }
   #limestone {
     font-size: 1.3vw;
     display: inline !important;
@@ -492,7 +511,11 @@ iframe {
   h2 {
     font-size: 1.4vw;
   }
+  h5 {
+     font-size: 1vw;
+  }
   .col-lg-6 p {
+     padding: 8px 0;
     font-size: 17px;
   }
   .jumbotron {
@@ -517,20 +540,17 @@ iframe {
   }
   /* Nav item links */
   .nav-item a {
-    font-size: 4.4vw;
-    outline: blanchedalmond;
     padding: 20px;
   }
   /* Make Booking button */
   #book-now {
-    font-size: 4.5vw;
     width: 100%;
     height: 100%;
   }
 }
 
 /* Used for testing only */
-/* * {
+* {
   outline: 1px solid red;
   outline-offset: -1px;
-} */
+}
