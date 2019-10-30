@@ -165,7 +165,13 @@ During my Mid-Project review session, my mentor advised that I use 100% width fo
 
 ## Deployment
 
-The site was deployed on GitHub Pages.
+The site was deployed on GitHub Pages, by following the below steps:
+
+- Selected Repository on github.com
+- "Settings" > "Github Pages"
+- Selected "Master Branch" from the "Source" dropdown box.
+- Notification: "Github Pages source saved"
+- Notification: "Your site was published at [https://tdunn891.github.io/milestone-1/](https://tdunn891.github.io/milestone-1/)"
 
 ## Credits
 
