@@ -265,7 +265,7 @@ a:target {
 /* Explore list items */
 #explore-list li {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 22px;
   margin: 6px 0;
   padding: 6px 0;
 }
@@ -278,7 +278,7 @@ a:target {
 }
 
 #south-australia {
-   padding-bottom: 16px;
+   padding-bottom: 20px;
    padding-top: 10px
 }
 #google-map {
@@ -369,7 +369,7 @@ a:target {
 
 /* Icon Colour change on hover */
 .fas:hover {
-  color: grey;
+  /* color: grey; */
 }
 
 /* Obelisk Navigation Logo */
@@ -562,7 +562,7 @@ iframe {
 }
 
 /* Used for testing purposes only */
-/* * {
+ /* * {
   outline: 1px solid red;
   outline-offset: -1px;
 } */
