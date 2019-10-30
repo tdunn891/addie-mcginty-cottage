@@ -70,7 +70,8 @@ h2 {
   margin: 0px 0px;
   margin-top: 4px;
   text-align: center;
-  background-color: rgb(76, 146, 189); 
+  /* background-color: rgb(76, 146, 189);  */
+  background-color: #016FB9;
   color: white;
   font-family: "Crete Round", serif;
 }
@@ -106,11 +107,12 @@ h2 {
   font-size: 25px;
 }
 
-/* Sleeping arrangements text*/
+/* Sub-headings*/
 h5 {
   font-family: "Crete Round", serif;
   font-weight: bold;
   font-size: 1rem;
+   padding-top: 6px;
 }
 
 /* Center collapsed navbar items */
@@ -189,13 +191,15 @@ h5 {
 
 /* Footer */
 #footer {
-  background-color: #3d75a4;
+  /* background-color: #3d75a4; */
+  background-color: #0D2149;
 }
 
 /* Footer container */
 footer .container-fluid {
   color: white;
-  background-color: #3d75a4;
+  /* background-color: #3d75a4; */
+  background-color: #0D2149;
 }
 
 /* Reviews */
@@ -208,7 +212,7 @@ footer .container-fluid {
   background-color: rgba(2, 3, 3, 0.75);
   border-radius: 6px;
   padding: 10px 10px;
-  margin: 8px 6px;
+  margin: 10px 8px;
 }
 
 .blockquote p {
@@ -254,8 +258,8 @@ a:target {
 /* Explore list */
 #explore-list {
   list-style-type: none;
-  text-align: left;
-  /* padding-left: 0px; */
+  /* text-align: left; */
+  padding-left: 0px;
 }
 
 /* Explore list items */
@@ -273,6 +277,10 @@ a:target {
   border: lightslategrey;
 }
 
+#south-australia {
+   padding-bottom: 16px;
+   padding-top: 10px
+}
 #google-map {
    min-height: 260px;
 }
@@ -305,7 +313,8 @@ a:target {
 }
 
 .footer-content a {
-  color: honeydew;
+  /* color: honeydew; */
+  color:white;
 }
 
 /* Reviews */
@@ -334,19 +343,19 @@ a:target {
 }
 
 #footer-text {
-  font-size: 12px;
+  font-size: 13px;
 }
 
 /* Arrow up to top of link */
 .fa-angle-up {
   vertical-align: middle;
-  font-size: 18px;
+  font-size: 26px;
   float: right;
   padding-right: 5px;
 }
 
 .fab {
-  color: whitesmoke;
+  color: white;
   transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
@@ -410,7 +419,7 @@ iframe {
     padding-bottom: 0px;
   }
   .col-lg-6 p {
-    font-size: 5vw;
+    font-size: 4.8vw;
   }
   #explore-list li {
     font-size: 16px;
@@ -530,6 +539,9 @@ iframe {
     padding-left: 150px;
     vertical-align: middle;
   }
+  #reviews .row {
+     height: 300px;
+  }
 }
 
 /* Media query applies when Navigation Bar is collapsed (screen sizes less than 992px)  */
@@ -549,8 +561,8 @@ iframe {
   }
 }
 
-/* Used for testing only */
-* {
+/* Used for testing purposes only */
+/* * {
   outline: 1px solid red;
   outline-offset: -1px;
-}
+} */
