@@ -15,28 +15,35 @@ This project aims ultimately to increase annual holiday rental income of my fami
 
 In order to set the business objectives and user needs of the site, a meeting was set up with the client, the owner of Addie McGinty's cottage, my father, Phil Dunn.
 
-The client gave background that the existing marketing strategy for the property was ineffective - simply a listing on the holiday rentals website. Over the previous 10 years, this strategy has yielded very low annual rental income, despite the uptick in vistor numbers to the town. The client agreed that a dedicated website (this project) would be an ideal means to take advantage of this trend.
-
-The house's existing Google Maps listing will be populated with a link to this site.
+The client gave background that the existing marketing strategy for the property was ineffective - simply a listing on the holiday rentals website. Over the previous 10 years, this strategy has yielded very low annual rental income, despite the uptick in vistor numbers to the town. The client agreed that a dedicated website (this project) would be an ideal means to take advantage of this trend. The property's existing Google Maps listing is to be populated with a link to this site.
 
 The client expressed the following Business Objectives and User Needs.
 
 Business Objectives:
 
 - Increase annual rental bookings (and thereby income) by 20%.
-- Increase awareness of the cottage as desirable place to stay. 
+- Increase awareness of the cottage as desirable place to stay.
 - Increase awareness of Robe as a domestic holiday destination.
 - Showcase nearby attractions and activities in Robe.
 
-User Needs/Goals:
+User Needs:
 
 The target audience is holidaymakers, particularly families, looking for a holiday rental on the Limestone Coast.
 
 - Make an informed decision as to whether the property is suitable for their family's holiday needs in terms of location, amenities, price.
 - Make a booking.
 
+The following Opportunities/Problems table was drafted with the client to determine strategic priorities UX efforts should address (in this order):
+
+
+| Opportunity/Problem                         | Importance     | Viablility/Feasibility  |
+| ------------------------------------------- |:--------------:| -----------------------:|
+| A. Increase holiday rentals                 |              5 |                       5 |
+| B. Create online presence for the property  |              4 |                       4 |
+| C. Increase awareness of Robe as holiday destination | 4     |                       2 |
+| D. Showcase nearby attractions in Robe      |          3     |                       3 |
+
 #### Scope
-<!-- Defines the functional and content requirements. What are the features, and content contained in the application or product. The requirements should fulfill and be aligned with the strategic goals. -->
 
 ##### Functional Specifications
 
@@ -54,7 +61,6 @@ Feature Set:
 - make an enquiry for further information.
 
 ##### Content Requirements
-<!-- What is required to provide value? -->
 
 In order to provide the value of the above functions, the following content is required:
 
@@ -66,15 +72,8 @@ In order to provide the value of the above functions, the following content is r
 - Button to allow bookings to be made. The button directs the user to the real [booking site](https://www.bookrobeaccommodation.com.au/accommodation/3).
 
 #### Structure
-<!-- Defines how user interact with the product, how system behave when user interact, how it’s organized, prioritized, and how much of it.  -->
 
 ##### Interaction Design
-<!-- Patterns and sequences that provide options to the user -->
-<!-- Good Int. Design:
-helps people to accomplish their goals.
-effectively communicates interactivity and functionality(what user can do).
-informs user about state changes(file has been saved, or any feedback), while they interact.
-prevents user error or mistakes, like the system asks user to confirm potentially harmful action(i.e. deletion). -->
 
 Given the simple, informational nature of the content, a single page structure is most appropriate. The content is all on one continuous page to encourage (particularly mobile-users) to view all of the content easily without having to click around i.e. to prevent cognitive overload. A navigation bar is provided (which collapses into a toggler) to allow the user to quickly jump to a specific section. The Call To Action is the 'MAKE BOOKING' button in the navigation bar.
 
@@ -86,19 +85,11 @@ Feedback:
 
 Navigation and social links change colour on hover, which shows users that they are clickable. The Enquiry user form requires that all fields (Name, Email, Enquiry) are populated, and alerts the user to any fields which require attention e.g. an email address without a '@' symbol. Once the submit button is clicked, a modal is shown to provide feedback to the user that their enquiry was sent successfully.
 
-
 ##### Information Architecture
-<!-- Organisation, arrangement and priority of content -->
-<!-- Given the content requirements, It defines the arrangement of content elements, how they are organized, to facilitate human understanding. -->
-<!-- Good Info. Arch:
-organizes, categorizes, and prioritizes the information based on user needs and business objectives.
-makes it easy to understand and move through information presented.
-flexible to accommodate growth and adapt to change.
-appropriate for the audience. -->
 
 Due to the low complexity and low amount of content, the architecture employed is single page, including several links to external websites (social links, booking website).
 
-The organising principle and order of the content is tied to the user needs - Property Features, Explore, Contact, Reviews. The first section the user is presented with is images and features of the house itself. Following this, the Explore section which includes the Google Map location. The Enquiry section with user form then follows, as this is the point in the user's visit where any information not yet provided can be asked for. Finally 
+The organising principle and order of the content is tied to the user needs - Property Features, Explore, Contact, Reviews. The first section the user is presented with is images and features of the house itself. Following this, the Explore section which includes the Google Map location. The Enquiry section with user form then follows, as this is the point in the user's visit where any information not yet provided can be asked for. Finally, the user can read reviews to encourage a Call to Action (Make Booking).  
 
 #### Skeleton
 <!-- Interface Design: The best arrangement and visual presentation of elements 
@@ -107,27 +98,32 @@ Navigation Design: Intuitive and completion of tasks  -->
 
 ##### Wireframes
 
-[Desktop Wireframes](Desktop_Wireframes.jpeg)
+Two sets of wireframes were created in the early development stage to help setout the content and layout in differing device sizes. Mobile-first were created initially, then wireframes for larger device and desktop users.
 
 [Mobile Wireframes](Mobile_Wireframes.jpeg)
 
+[Desktop Wireframes](Desktop_Wireframes.jpeg)
+
 #### Surface
 
-Colours: The shade of blue was chosen as the dominant colour to convey a relaxed, sea-side feel.
+The shade of blue was chosen as the dominant colour to convey a relaxed, sea-side feel.
+Background images of the cove, sea, and green seaside vegetation were also used for this purpose.
 
 ### User Stories
 <!-- Story of how a user interacts with a system in some way -->
-User 1 - "As a user with limited mobility I would like to see if the property is close to the main street. "
-User 2 - "As a user with limited speech, I would like to be able to enquire further without having to make a phone call."
-User 3 - "As a user from outside Australia, I would like to be able to locate the town in relation to Australia." 
-User 4 - "As a user with a keen interest in dining, I would like to know if there are decent restaurants and pubs in walking distance?"
-User 5 - "As a user with a very limited budget, I would like to be able to see the nightly rates.
-<!-- ### Share links to wireframes, mockups, diagrams (include in a folder in project) -->
+- User 1 - "As a user with limited mobility I would like to see if the property is close to the main street. "
+- User 2 - "As a user with limited speech, I would like to be able to enquire further without having to make a phone call."
+- User 3 - "As a user from outside Australia, I would like to be able to locate the town in relation to Australia."
+- User 4 - "As a user with a keen interest in dining, I would like to know if there are decent restaurants and pubs in walking distance?"
+- User 5 - "As a user with a very limited budget, I would like to be able to see the nightly rates."
 
-<!-- END UX -->
+- User 1's needs are met by the inclusion of an embedded Google Map.
+- User 2's needs are met by the ability to request further information via the text form.
+- User 3's needs are met by the inclusion of the map in the Explore section.
+- User 4's needs are met by the inclusion of What to Eat external link in the Explore section.
+- User 5's needs are met by showing the approximate nightly price as well as an external link to the Seasonal Rates.
 
 ## Features
-<!-- Include the feature matrix -->
 
 ### Existing Features
 
@@ -169,21 +165,17 @@ Potential Feature 3 - Currently the data entered into the Enquiry form isn't sen
 
 ## Testing
 
-Chrome Developer Tools were used extensively during development.
+Chrome Developer Tools were used extensively during development. In particular the ability to review the responsiveness of the site on a wide variety of device sizes. The Chrome Developer Audit tool, "Lighthouse" was used to test Performace, Accessibility, Best Practices.
 
-The Chrome Developer Audit tool, "Lighthouse" was used to test Performace, Accessibility, Best Practices.
-
-The site was tested on the following browsers: Firefox, Chrome, Safari and the following physical devices: OnePlus 5 (Android), iPhone 7 (iOS)
+The site was tested successfully on the following browsers: Firefox, Chrome, Safari and the following physical devices: OnePlus 5 (Android), iPhone 7 (iOS)
 
 Manual testing involved clicking through all the links from different locations on the page, on all device sizes to ensure responsiveness. External links were also tested to ensure they were opened in a new tab (ie target="_blank").
 
-<!-- END TESTING -->
+During my Mid-Project review session, my mentor advised that I use 100% width for the Enquiry form inputs on mobile devices. It was also advised to replace curved border style for the section headings with straight corners. My mentor advised this would help to avoid the user thinking they were clickable buttons.
 
 ## Deployment
 
 The site was deployed on GitHub Pages.
-
-<!-- END DEPLOYMENT -->
 
 ## Credits
 
@@ -195,10 +187,15 @@ The Explore links (Getting Here, Tourist Map, What to Do, What to Eat) direct th
 
 ### Media
 
-Several images of the inside of the house were obtained from [Book Robe Accomodation](http://www.bookrobeaccommodation.com.au/accommodation/3)
+The following images of the inside of the house were obtained from [Book Robe Accomodation](http://www.bookrobeaccommodation.com.au/accommodation/3):
+
+- [Living Space](https://www.bookrobeaccommodation.com.au/database/images/3_23.jpg)
+- [Living Space Reverse](https://www.bookrobeaccommodation.com.au/database/images/3_24.jpg)
+- [Two Beds](https://www.bookrobeaccommodation.com.au/database/images/3_210.jpg)
+
+
+Map showing Robe's location in relation to Australia obtained from [Robe Tourism](http://robe.com.au) website.
 
 ### Acknowledgements
 
 Thank you to my father and grandmother for providing useful input.
-
-<!-- END CREDITS -->
