@@ -38,11 +38,10 @@ section {
 
 /* Navigation Bar Title */
 h1 {
-   vertical-align: middle;
+  vertical-align: middle;
   display: inline;
   font-family: "Crete Round", serif;
   font-size: 1.7vw;
-  /* margin-left: 14px; */
 }
 
 /* Navigation Items */
@@ -123,8 +122,7 @@ h5 {
 
 /* Background image */
 .sea-green {
-  background-image: url("assets/img/Sea\ w\ green\ foreground.JPG");
-  /* background-image: url("img/Sea\ w\ green\ foreground.JPG"); */
+  background-image: url("../img/Sea\ w\ green\ foreground.JPG");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -259,7 +257,7 @@ a:target {
 #explore-list {
   list-style-type: none;
   text-align: left;
-  padding-left: 0px;
+  /* padding-left: 0px; */
 }
 
 /* Explore list items */
@@ -272,7 +270,7 @@ a:target {
 
 /* Explore list item anchors */
 #explore-list li a {
-  padding: 4px;
+  padding: 4px 12px;
   text-decoration: none;
   border: lightslategrey;
 }
@@ -294,7 +292,7 @@ a:target {
 
 /* Background image for Contact section */
 #contact {
-  background-image: url("assets/img/IMG_4247-3.jpg");
+  background-image: url("../img/IMG_4247-3.jpg");
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover;
@@ -329,8 +327,8 @@ a:target {
 
 /* Background image of Wooden Branch with Addie inscribed */
 #addie-branch {
-  background-image: url("assets/img/Addie_Sign.JPG");
-  background-position-y: 150px;
+  background-image: url("../img/Addie_Sign.JPG");
+  background-position-y: 50px;
 }
 
 #footer-text {
@@ -365,10 +363,7 @@ a:target {
 
 /* Obelisk Navigation Logo */
 #obelisk-nav-logo {
-  /* display: inline-block; */
-  /* float: left; */
   border-radius: 48px;
-  /* padding: 2px 2px; */
   height: auto;
   width: 48px;
 }
@@ -404,12 +399,8 @@ iframe {
     font-size: 5.5vw;
   }
   #limestone {
-    /* display: none; */
-    /* position: relative; */
-    /* top: -12px; */
     font-size: 12px;
     text-align: end;
-    /* padding-top: 2px; */
     margin-bottom: 0px;
     padding-bottom: 0px;
   }
@@ -427,7 +418,6 @@ iframe {
 
 /* Small Tablet */
 @media (min-width: 576px) {
-  .navbar-brand,
   h1 {
     font-size: 3.2vw;
   }
@@ -471,9 +461,6 @@ iframe {
   h1 {
     font-size: 2.3vw;
   }
-  #limestone {
-    font-size: 1.5vw;
-  }
   .nav-item a,
   #book-now {
     font-size: 1.35vw;
@@ -487,15 +474,18 @@ iframe {
   .blockquote p {
     font-size: 1.3vw;
   }
+  #limestone {
+    font-size: 1.3vw;
+    display: inline !important;
+    padding-left: 18px;
+    vertical-align: middle;
+  }
 }
 
 /* Extra Large devices  */
 @media (min-width: 1200px) {
   h1 {
-    font-size: 1.8vw;
-  }
-  #limestone {
-    font-size: 1.2vw;
+    font-size: 1.75vw;
   }
   .nav-item a,
   #book-now {
@@ -513,6 +503,12 @@ iframe {
   .blockquote p {
     font-size: 0.9vw;
   }
+  #limestone {
+    font-size: 1.1vw;
+    display: inline !important;
+    padding-left: 150px;
+    vertical-align: middle;
+  }
 }
 
 /* Media query applies when Navigation Bar is collapsed (screen sizes less than 992px)  */
@@ -525,6 +521,7 @@ iframe {
   .nav-item a {
     font-size: 4.4vw;
     outline: blanchedalmond;
+    /* background-color: blue; */
     padding: 20px;
   }
   /* Make Booking button */
@@ -537,6 +534,6 @@ iframe {
 
 /* Used for testing */
 * {
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
   outline-offset: -1px;
 }

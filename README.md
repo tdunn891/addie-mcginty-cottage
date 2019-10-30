@@ -117,10 +117,11 @@ Colours: The shade of blue was chosen as the dominant colour to convey a relaxed
 
 ### User Stories
 <!-- Story of how a user interacts with a system in some way -->
-User 1 - "I want to take my family of 5."
-User 2 - "I have a large boat trailer, will there be adequate parking?"
-User 3 - "I will be arriving quite late, what are the check-in times?"
-User 4 - "Are there decent restaurants and pubs in walking distance?"
+User 1 - "As a user with limited mobility I would like to see if the property is close to the main street. "
+User 2 - "As a user with limited speech, I would like to be able to enquire further without having to make a phone call."
+User 3 - "As a user from outside Australia, I would like to be able to locate the town in relation to Australia." 
+User 4 - "As a user with a keen interest in dining, I would like to know if there are decent restaurants and pubs in walking distance?"
+User 5 - "As a user with a very limited budget, I would like to be able to see the nightly rates.
 <!-- ### Share links to wireframes, mockups, diagrams (include in a folder in project) -->
 
 <!-- END UX -->
