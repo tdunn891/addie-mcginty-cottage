@@ -1,4 +1,4 @@
-# Addie McGinty's Cottage
+# [Addie McGinty's Cottage](https://tdunn891.github.io/addie-mcginty-cottage)
 
 ## Project Purpose
 
