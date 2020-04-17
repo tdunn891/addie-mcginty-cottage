@@ -1,4 +1,4 @@
-# Milestone Project 1 - Addie McGinty's Cottage
+# Addie McGinty's Cottage
 
 ## Project Purpose
 
