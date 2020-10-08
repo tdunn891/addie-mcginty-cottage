@@ -1,3 +1,5 @@
+<img src="https://github.com/tdunn891/addie-mcginty-cottage/blob/master/assets/img/Obelisk.png?raw=true" width=220>
+
 # [Addie McGinty's Cottage](https://tdunn891.github.io/addie-mcginty-cottage)
 
 ## Project Purpose
