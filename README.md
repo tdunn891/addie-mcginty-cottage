@@ -1,4 +1,4 @@
-<img src="https://github.com/tdunn891/addie-mcginty-cottage/blob/master/assets/img/Obelisk.png?raw=true" width=220>
+<img src="https://github.com/tdunn891/addie-mcginty-cottage/blob/master/assets/addie-mcginty.gif" width=600>
 
 # [Addie McGinty's Cottage](https://tdunn891.github.io/addie-mcginty-cottage)
 
