@@ -1,4 +1,7 @@
-<img src="https://github.com/tdunn891/addie-mcginty-cottage/blob/master/assets/addie-mcginty.gif" width=600>
+[1]: https://tdunn891.github.io/addie-mcginty-cottage
+[2]: https://github.com/tdunn891/addie-mcginty-cottage/blob/master/assets/addie-mcginty.gif
+
+[![Addie McGinty GIF][2]][1]
 
 # [Addie McGinty's Cottage](https://tdunn891.github.io/addie-mcginty-cottage)
 
