@@ -9,7 +9,7 @@
 
 This project aims ultimately to increase annual holiday rental income of my family's beach cottage in Robe, South Australia.
 
-## User Experience Design
+## UX Design
 
 #### Strategy
 
@@ -130,25 +130,21 @@ Background images of the cove, sea, and green seaside vegetation were also used 
 - Feature 5: Booking button.
 - Feature 6: Reviews from previous tenants.
 - Feature 7: Explore links (Getting Here, Tourist Map, What to Do, What to Eat).
-- Feature 7: Social Links to official Robe Tourism pages and Robe Coastal Holidays website.
+- Feature 8: Social Links to official Robe Tourism pages and Robe Coastal Holidays website.
 
 ### Features Left to Implement
 
-Potential Feature 1 - Current and forecast weather conditions.
+Potential Feature 1 - Show current and forecast weather conditions in Robe.
 
 Potential Feature 2 - Livestream of Robe main beach.
 
-Potential Feature 3 - Currently the data entered into the Enquiry form isn't sent anywhere - a simple 'Thank you' modal is shown. Ideally this data should be sent to an email address or server database.
-
 ## Technologies Used
 
-- [HTML5](https://www.w3.org/html) : used for page structure.
-- [CSS3](https://www.w3.org/Style/CSS/Overview.en.html) : styling language.
-- [Bootstrap](https://getbootstrap.com) : responsive, mobile-first framework.
+- [Bootstrap 4](https://getbootstrap.com) : responsive, mobile-first framework.
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) : used for to show modal on form submission, dynamically resize navbar height
 - [Git](https://git-scm.com/) : used for version control.
-- [GitHub](https://github.com) : used to host code repository and to deploy project (via GitHub Pages).
 - [VSCode](https://code.visualstudio.com) : preferred text editor.
+- [EmailJS](https://www.emailjs.com/) : used to email customer form contents. 
 - [Favicon Generator](https://www.favicon-generator.org) : used to create a 16x16 icon, displayed next to page title.
 - [FontAwesome](https://fontawesome.com) : used for icons.
 - [Material Icons](https://material.io/resources/icons) : used for icons.
@@ -157,6 +153,7 @@ Potential Feature 3 - Currently the data entered into the Enquiry form isn't sen
 - [Adobe Lightroom](https://lightroom.adobe.com/) : used to edit images.
 - [W3C Validator](https://jigsaw.w3.org) : used to validate HTML & CSS.
 - [Autoprefixer CSS Online](https://autoprefixer.github.io/) : used to add vendor prefixes.
+- [CSS3](https://www.w3.org/Style/CSS/Overview.en.html) : styling language.
 
 ## Testing
 
@@ -176,7 +173,7 @@ The site was deployed on GitHub Pages, by following the below steps:
 - "Settings" > "Github Pages"
 - Selected "Master Branch" from the "Source" dropdown box.
 - Notification: "Github Pages source saved"
-- Notification: "Your site was published at [https://tdunn891.github.io/milestone-1/](https://tdunn891.github.io/milestone-1/)"
+- Notification: "Your site was published at [https://tdunn891.github.io/addie-mcginty-cottage/](https://tdunn891.github.io/addie-mcginty-cottage/)"
 
 ## Credits
 
@@ -198,4 +195,4 @@ Map showing Robe's location in relation to Australia obtained from [Robe Tourism
 
 ### Acknowledgements
 
-Thank you to my father and grandmother for providing useful input.
+Thank you to my father and grandmother for providing feedback.
