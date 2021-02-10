@@ -66,7 +66,7 @@
                <a class="nav-link book-now" href="https://www.bookrobeaccommodation.com.au/accommodation/3"
                   target="_blank" rel="noreferrer">
                   <button class="btn btn-primary" id="book-now" type="submit">
-                     <i class="far fa-calendar-alt"></i>MAKE BOOKING
+                     <i class="far fa-calendar-alt"></i> MAKE BOOKING
                   </button>
                </a>
             </li>
@@ -264,31 +264,32 @@
             <!-- Jumbotron (Bootstrap Component) to encapsulate Enquiry Form -->
             <div class="jumbotron">
                <!-- Enquiry Form -->
-               <form id="enquiry-form" onsubmit="openModal()">
+               <form id="enquiry-form">
                   <div class="form-group">
                      <div class="form-question">
                         <label for="NameInput"></label>
                         <!-- Name Input, with JavaScript to provide feedback on validity -->
-                        <input type="text" class="form-control" id="NameInput" placeholder="Name" required=""
-                           oninvalid="this.setCustomValidity('Please enter your name.')"
+                        <input type="text" class="form-control" id="NameInput" placeholder="Name" name="NameInput"
+                           required oninvalid="this.setCustomValidity('Please enter your name.')"
                            oninput="setCustomValidity('')" />
                      </div>
                      <div class="form-question">
                         <label for="EmailInput"></label>
                         <!-- Email Input, with JavaScript to provide feedback on validity -->
-                        <input type="email" class="form-control" id="EmailInput" placeholder="Email" required=""
-                           oninput="setCustomValidity('')"
+                        <input type="email" class="form-control" id="EmailInput" placeholder="Email" name="EmailInput"
+                           required oninput="setCustomValidity('')"
                            oninvalid="this.setCustomValidity('Please enter a valid email address.')" />
                      </div>
                      <div class="form-question">
                         <label for="FormControlTextarea1"></label>
                         <!-- Enquiry Input (Text Area), with JavaScript to provide feedback on validity -->
                         <textarea class="form-control" id="FormControlTextarea1" rows="2" placeholder="Your Enquiry"
-                           required="" oninput="setCustomValidity('')"
+                           name="FormControlTextarea1" required oninput="setCustomValidity('')"
                            oninvalid="this.setCustomValidity('Please enter your message.')"></textarea>
                      </div>
                      <!-- Button to Submit Form -->
-                     <button type="submit" class="btn btn-primary" id="form-submit-btn">SUBMIT</button>
+                     <button type="submit" class="btn btn-primary" id="form-submit-btn">Send Query <i
+                           class="fa fa-paper-plane" aria-hidden="true"></i></button>
                   </div>
                </form>
             </div>
@@ -416,6 +417,11 @@
    <script src="https://kit.fontawesome.com/e1b7ca2f87.js"></script>
    <!-- LazySizes -->
    <script src="assets/js/lazysizes.min.js" async=""></script>
+   <!-- EmailJS -->
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+   <script type="text/javascript">
+      emailjs.init('user_cI1WkFAOkfZrIs6KBANB6')
+   </script>
    <!-- main.js -->
    <script src="assets/js/main.js"></script>
 

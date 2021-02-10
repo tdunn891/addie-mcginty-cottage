@@ -19,8 +19,28 @@ const scrollFunction = () => {
 	}
 };
 
-// Show success Moddal on successful submission of Enquiry form
-$('#enquiry-form').on('submit', (e) => {
-	$('#successModal').modal('show');
-	e.preventDefault();
-});
+// Handle User Query via Email JS
+const btn = document.getElementById('form-submit-btn');
+
+document
+	.getElementById('enquiry-form')
+	.addEventListener('submit', function (event) {
+		event.preventDefault();
+
+		btn.innerText = 'Sending...';
+		const serviceID = 'default_service';
+		const templateID = 'addie-mcginty-template';
+
+		emailjs.sendForm(serviceID, templateID, this).then(
+			() => {
+				btn.innerHTML = 'Query Sent <i class="fas fa-check"></i>';
+				// Reset Form
+				this.reset();
+				btn.disabled = true;
+			},
+			(err) => {
+				btn.innerText = 'Send Query';
+				alert(JSON.stringify(err));
+			}
+		);
+	});
