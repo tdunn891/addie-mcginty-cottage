@@ -44,3 +44,17 @@ document
 			}
 		);
 	});
+
+// OpenWeatherAPI
+const openWeatherAPI =
+	'https://api.openweathermap.org/data/2.5/weather?id=2062381&appid=adae1bd1c6a47083e7db4577e2c1c010&units=metric';
+fetch(openWeatherAPI)
+	.then((response) => response.json())
+	.then((data) => {
+		$('#weather-temp').text(data.main.temp + ' °C');
+		$('#weather-conditions').text(data.weather[0].main);
+		const iconCode = data.weather[0].icon;
+		const iconURL = `http://openweathermap.org/img/w/${iconCode}.png`;
+		$('#weather-icon').attr('src', iconURL);
+	})
+	.catch((error) => console.log(error));

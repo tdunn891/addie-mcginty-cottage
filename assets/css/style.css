@@ -63,6 +63,11 @@ h1 {
 	-o-transition: all 0.2s ease-in-out;
 }
 
+/* Weather Temp */
+#weather-temp {
+	font-size: 14px;
+}
+
 /* Section Headings */
 h2 {
 	font-size: 20px;
