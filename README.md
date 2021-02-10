@@ -1,3 +1,8 @@
+[1]: https://tdunn891.github.io/addie-mcginty-cottage
+[2]: https://github.com/tdunn891/addie-mcginty-cottage/blob/master/assets/addie-mcginty.gif
+
+[![Addie McGinty GIF][2]][1]
+
 # [Addie McGinty's Cottage](https://tdunn891.github.io/addie-mcginty-cottage)
 
 ## Project Purpose
@@ -31,7 +36,7 @@ The target audience is holidaymakers, particularly families, looking for a holid
 The following Opportunities/Problems table was drafted with the client to determine strategic priorities UX efforts should address (in this order):
 
 | Opportunity/Problem                         | Importance     | Viablility/Feasibility  |
-| ------------------------------------------- |:--------------:| -----------------------:|
+| ------------------------------------------- |:--------------:| :----------------------:|
 | A. Increase holiday rentals                 |              5 |                       5 |
 | B. Create online presence for the property  |              4 |                       4 |
 | C. Increase awareness of Robe as holiday destination | 4     |                       2 |
