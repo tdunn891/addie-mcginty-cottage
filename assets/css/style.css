@@ -1,562 +1,570 @@
 /* Smooth scroll after clickling Navigation Bar items */
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 body,
 html {
-  width: 100%;
-  max-width: 100%;
+	width: 100%;
+	max-width: 100%;
 }
 
 /* Subtitle span - "Robe, South Australia" */
 #limestone {
-  font-family: "Crete Round", serif;
-  display: block;
+	font-family: 'Crete Round', serif;
+	display: block;
 }
 
 /* Span - Robe, South Australia */
 #robe-sa {
-  font-size: 16px;
-  display: none;
+	font-size: 16px;
+	display: none;
 }
 
 /* Section margins */
 section {
-  margin: 12px 0px;
+	margin: 12px 0px;
 }
 
 /* Navigation Bar */
 .navbar {
-  background-color: rgba(51, 60, 55, 0.8);
-  margin-top: 12px;
-  padding: 10px 10px;
+	background-color: rgba(51, 60, 55, 0.8);
+	margin-top: 12px;
+	padding: 10px 10px;
 }
 
 /* Navigation Bar Title */
 h1 {
-  vertical-align: middle;
-  display: inline;
-  font-family: "Crete Round", serif;
-  font-size: 1.7vw;
+	vertical-align: middle;
+	display: inline;
+	font-family: 'Crete Round', serif;
+	font-size: 1.7vw;
 }
 
 /* Navigation Items */
 .navbar-nav {
-  align-items: center;
-  max-width: 100%;
+	align-items: center;
+	max-width: 100%;
 }
 
 /* Call to Action button "Make Booking" */
 #book-now {
-  font-size: 1vw;
-  border-radius: 1rem;
+	font-size: 1vw;
+	border-radius: 1rem;
 }
 
 /* Navigation Links */
 .nav-item a {
-  font-size: 1.05vw;
-  font-family: "Crete Round", serif;
-  transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
+	font-size: 1.05vw;
+	font-family: 'Crete Round', serif;
+	transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
 }
 
 /* Section Headings */
 h2 {
-  font-size: 20px;
-  padding: 8px 4px;
-  margin: 0px 0px;
-  margin-top: 4px;
-  text-align: center;
-  /* background-color: rgb(76, 146, 189);  */
-  background-color: #016FB9;
-  color: white;
-  font-family: "Crete Round", serif;
+	font-size: 20px;
+	padding: 8px 4px;
+	margin: 0px 0px;
+	margin-top: 4px;
+	text-align: center;
+	background-color: #016fb9;
+	color: white;
+	font-family: 'Crete Round', serif;
 }
 
 /* Carousel Images */
 .carousel-item img {
-  min-width: auto;
-  overflow: hidden;
-  border-radius: 3px;
+	min-width: auto;
+	overflow: hidden;
+	border-radius: 3px;
 }
 
 /* Check In & Out Span */
 #check-in-out {
-  font-size: 14px;
+	font-size: 14px;
 }
 
 /* Sleeping Arrangements div */
 #sleeping-arrangements {
-  padding-left: 0px;
+	padding-left: 0px;
 }
 
 /* Sleeping Arrangements list items */
 #sleeping-arrangements li {
-  list-style-type: none;
-  display: inline-block;
-  padding: 5px 5px;
-  margin: 5px 5px;
-  outline: 1px solid blue;
+	list-style-type: none;
+	display: inline-block;
+	padding: 5px 5px;
+	margin: 5px 5px;
+	outline: 1px solid blue;
 }
 
 /* Material Icons size */
 .material-icons-outlined {
-  font-size: 25px;
+	font-size: 25px;
 }
 
 /* Sub-headings*/
 h5 {
-  font-family: "Crete Round", serif;
-  font-weight: bold;
-  font-size: 1rem;
-   padding-top: 6px;
+	font-family: 'Crete Round', serif;
+	font-weight: bold;
+	font-size: 1rem;
+	padding-top: 6px;
 }
 
 /* Center collapsed navbar items */
 .navbar-collapse {
-  text-align: center;
+	text-align: center;
 }
 
 /* Background image */
 .sea-green {
-  background-image: url("../img/Seawgreenforeground.JPG");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 22vh;
+	background-image: url('../img/Seawgreenforeground.JPG');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 22vh;
 }
 
 /* Price span */
 #price {
-  font-style: italic;
-  font-size: 15px;
-  float: right;
+	font-style: italic;
+	font-size: 15px;
+	float: right;
 }
 
 /* Enquiry form  div */
 .form-group {
-  text-align: center;
-  margin-bottom: 0px;
+	text-align: center;
+	margin-bottom: 0px;
 }
 
 /* Enquiry Submit Button */
 #form-submit-btn {
-  margin-bottom: 0px;
-  margin-top: 10px;
-  border-radius: 10px;
+	margin-bottom: 0px;
+	margin-top: 10px;
+	border-radius: 10px;
 }
 
 /* SAL logo */
 #SAL-logo {
-  max-height: 40px;
-  border-radius: 4px;
+	max-height: 40px;
+	border-radius: 4px;
+}
+
+#SAL-logo:hover {
+	opacity: 0.8;
 }
 
 /* Amenities List */
 .amenities-list {
-  list-style: none;
-  padding-left: 0;
+	list-style: none;
+	padding-left: 0;
 }
 
 /* Amenities List items */
 .amenities-list li {
-  padding: 3px 0px;
-  vertical-align: bottom !important;
+	padding: 3px 0px;
+	vertical-align: bottom !important;
 }
 
 /* Amenities List items icons */
 .amenities-list li i {
-  padding: 2px 0px;
-  font-size: 22px;
-  width: 50px;
-  vertical-align: middle;
-  text-align: center;
+	padding: 2px 0px;
+	font-size: 22px;
+	width: 50px;
+	vertical-align: middle;
+	text-align: center;
 }
 
 /* Kitchen & Fireplace Material Icons */
 #kitchen-icon,
 #fireplace-icon {
-  font-size: 26px;
+	font-size: 26px;
 }
 
 /* Min Height of section rows */
 #explore .row,
 #contact .row,
 #reviews .row {
-  min-height: 20vh;
+	min-height: 20vh;
 }
 
 /* Footer */
 #footer {
-  /* background-color: #3d75a4; */
-  background-color: #0D2149;
+	/* background-color: #3d75a4; */
+	background-color: #0d2149;
 }
 
 /* Footer container */
 footer .container-fluid {
-  color: white;
-  /* background-color: #3d75a4; */
-  background-color: #0D2149;
+	color: white;
+	/* background-color: #3d75a4; */
+	background-color: #0d2149;
 }
 
 /* Reviews */
 .blockquote-footer {
-  text-align: right;
-  color: white;
+	text-align: right;
+	color: white;
 }
 
 .blockquote {
-  background-color: rgba(2, 3, 3, 0.75);
-  border-radius: 6px;
-  padding: 10px 10px;
-  margin: 10px 8px;
+	background-color: rgba(2, 3, 3, 0.75);
+	border-radius: 6px;
+	padding: 10px 10px;
+	margin: 10px 8px;
 }
 
 .blockquote p {
-  /* font-size: 15px; */
-  font-style: italic;
+	/* font-size: 15px; */
+	font-style: italic;
 }
 
 /* To offset anchor links by the height of the Nagivation Bar. */
 a:target {
-  display: block;
-  position: relative;
-  top: -58px;
-  visibility: hidden;
+	display: block;
+	position: relative;
+	top: -58px;
+	visibility: hidden;
 }
 
 /* Socials list */
 .socials-list {
-  padding: 0;
-  margin-top: 8px;
-  text-align: center;
+	padding: 0;
+	margin-top: 8px;
+	text-align: center;
 }
 
 /* Social list items */
 .socials-list li {
-  display: inline;
-  list-style-type: none;
-  vertical-align: middle;
-  padding-right: 10px;
-  padding-left: 10px;
+	display: inline;
+	list-style-type: none;
+	vertical-align: middle;
+	padding-right: 10px;
+	padding-left: 10px;
 }
 
 /* Social list item anchors */
 .socials-list li a {
-  vertical-align: middle;
-  text-decoration: none;
+	vertical-align: middle;
+	text-decoration: none;
 }
 
 /* Robe Council logo */
 #robe-com-au {
-  height: 40px;
+	height: 40px;
+}
+
+#robe-com-au:hover {
+	opacity: 0.8;
 }
 
 /* Explore list */
 #explore-list {
-  list-style-type: none;
-  /* text-align: left; */
-  padding-left: 0px;
+	list-style-type: none;
+	padding-left: 0px;
 }
 
 /* Explore list items */
 #explore-list li {
-  text-decoration: none;
-  font-size: 22px;
-  margin: 6px 0;
-  padding: 6px 0;
+	text-decoration: none;
+	font-size: 22px;
+	margin: 6px 0;
+	padding: 6px 0;
 }
 
 /* Explore list item anchors */
 #explore-list li a {
-  padding: 4px 12px;
-  text-decoration: none;
-  border: lightslategrey;
+	padding: 4px 12px;
+	text-decoration: none;
+	border: lightslategrey;
 }
 
 #south-australia {
-   padding-bottom: 20px;
-   padding-top: 10px
+	padding-bottom: 20px;
+	padding-top: 10px;
 }
 #google-map {
-   min-height: 260px;
+	min-height: 260px;
 }
 
 /* Jumbotron for Enquiry Form */
 .jumbotron {
-  padding: 0px 14px 10px 14px;
-  background-color: rgba(51, 60, 55, 0.5);
-  border-radius: 0.5rem;
-  margin: 18px auto;
-  width: 100%;
+	padding: 0px 14px 10px 14px;
+	background-color: rgba(51, 60, 55, 0.5);
+	border-radius: 0.5rem;
+	margin: 18px auto;
+	width: 100%;
 }
 
 /* Form Inputs (Name, Email) */
 #NameInput,
 #EmailInput {
-  width: 100%;
+	width: 100%;
 }
 
 /* Background image for Contact section */
 #contact {
-  background-image: url("../img/IMG_4247-3.jpg");
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: cover;
+	background-image: url('../img/IMG_4247-3.jpg');
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: cover;
 }
 
 .footer-content {
-  padding-top: 8px;
+	padding-top: 8px;
 }
 
 .footer-content a {
-  /* color: honeydew; */
-  color:white;
+	/* color: honeydew; */
+	color: white;
 }
 
 /* Reviews */
 .mb-0 {
-  color: whitesmoke;
-  font-size: 17px;
+	color: whitesmoke;
+	font-size: 17px;
 }
 
 /* Reviewer font size */
 .reviewer {
-  font-size: 13px;
+	font-size: 13px;
 }
 
 /* Parallax scrolling effect */
 .parallax {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 /* Background image of Wooden Branch with Addie inscribed */
 #addie-branch {
-  background-image: url("../img/Addie_Sign.JPG");
-  background-position-y: 50px;
+	background-image: url('../img/Addie_Sign.JPG');
+	background-position-y: 50px;
 }
 
 #footer-text {
-  font-size: 13px;
+	font-size: 13px;
+	list-style: none;
 }
 
 /* Arrow up to top of link */
 .fa-angle-up {
-  vertical-align: middle;
-  font-size: 26px;
-  float: right;
-  padding-right: 5px;
+	vertical-align: middle;
+	font-size: 26px;
+	float: right;
+	padding-right: 5px;
 }
 
 .fab {
-  color: white;
-  transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
+	color: white;
+	transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
 }
 
 /* Icon Colour change on hover */
 .fab:hover {
-  color: grey;
-}
-
-/* Icon Colour change on hover */
-.fas:hover {
-  /* color: grey; */
+	color: grey;
 }
 
 /* Obelisk Navigation Logo */
 #obelisk-nav-logo {
-  border-radius: 48px;
-  height: auto;
-  width: 48px;
+	border-radius: 48px;
+	height: auto;
+	width: 48px;
+}
+
+/* GitHub logo */
+#github-logo {
+	padding-bottom: 2px;
+	width: 16px;
 }
 
 /* Embedded Google Map */
 iframe {
-  width: 100%;
-  height: 100%;
-  border: 0;
+	width: 100%;
+	height: 100%;
+	border: 0;
 }
 
 .col-lg-6 p {
-  margin-top: 5px;
-  margin-bottom: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 .blockquote p {
-  font-size: 13px;
+	font-size: 13px;
 }
 
 /* MEDIA QUERIES */
 
 /* Mobile */
 @media (min-width: 320px) {
-  h1 {
-    font-size: 4.8vw;
-  }
-  .nav-item a,
-  #book-now {
-    font-size: 5.5vw ;
-  }
-  h2 {
-    font-size: 5.5vw;
-  }
-  h5 {
-     font-size: 5vw;
-  }
-  #limestone {
-    font-size: 4vw;
-    text-align: end;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-  }
-  .col-lg-6 p {
-    font-size: 4.8vw;
-  }
-  #explore-list li {
-    font-size: 16px;
-    padding: 4px;
-  }
-  .col-lg-6 {
-    margin-bottom: 2px;
-  }
+	h1 {
+		font-size: 4.8vw;
+	}
+	.nav-item a,
+	#book-now {
+		font-size: 5.5vw;
+	}
+	h2 {
+		font-size: 5.5vw;
+	}
+	h5 {
+		font-size: 5vw;
+	}
+	#limestone {
+		font-size: 4vw;
+		text-align: end;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+	}
+	.col-lg-6 p {
+		font-size: 4.8vw;
+	}
+	#explore-list li {
+		font-size: 16px;
+		padding: 4px;
+	}
+	.col-lg-6 {
+		margin-bottom: 2px;
+	}
 }
 
 /* Small Tablet */
 @media (min-width: 576px) {
-  h1 {
-    font-size: 3.4vw;
-  }
-  .nav-item a,
-  #book-now {
-    font-size: 3.5vw;
-  }
-  h2 {
-    font-size: 3.2vw;
-  }
-  .blockquote p {
-    font-size: 14px;
-  }
+	h1 {
+		font-size: 3.4vw;
+	}
+	.nav-item a,
+	#book-now {
+		font-size: 3.5vw;
+	}
+	h2 {
+		font-size: 3.2vw;
+	}
+	.blockquote p {
+		font-size: 14px;
+	}
 }
 
 /* Medium Tablet */
 @media (min-width: 768px) {
-  h1 {
-    font-size: 4vw;
-  }
-  #limestone {
-    font-size: 2.3vw;
-  }
-  .nav-item a,
-  #book-now {
-    font-size: 3.5vw;
-  }
-  h2 {
-    font-size: 3.3vw;
-  }
-  h5 {
-     font-size: 2.7vw;
-  }
-  .col-lg-6 p {
-   font-size: 3vw;
- }
-  .jumbotron {
-    width: 60%;
-  }
-  .blockquote p {
-    font-size: 1.4vw;
-  }
+	h1 {
+		font-size: 4vw;
+	}
+	#limestone {
+		font-size: 2.3vw;
+	}
+	.nav-item a,
+	#book-now {
+		font-size: 3.5vw;
+	}
+	h2 {
+		font-size: 3.3vw;
+	}
+	h5 {
+		font-size: 2.7vw;
+	}
+	.col-lg-6 p {
+		font-size: 3vw;
+	}
+	.jumbotron {
+		width: 60%;
+	}
+	.blockquote p {
+		font-size: 1.4vw;
+	}
 }
 
 /* Large Tablet, Small Laptops and above */
 @media (min-width: 992px) {
-  h1 {
-    font-size: 2.3vw;
-  }
-  .nav-item a,
-  #book-now {
-    font-size: 1.35vw;
-  }
-  h2 {
-    font-size: 2vw;
-  }
-  h5 {
-     font-size: 1.8vw;
-  }
-  .jumbotron {
-    width: 60%;
-  }
-  .blockquote p {
-    font-size: 1.5vw;
-  }
-  .col-lg-6 p {
-   font-size: 1.8vw;
- }
-  #limestone {
-    font-size: 1.3vw;
-    display: inline !important;
-    padding-left: 18px;
-    vertical-align: middle;
-  }
+	h1 {
+		font-size: 2.3vw;
+	}
+	.nav-item a,
+	#book-now {
+		font-size: 1.35vw;
+	}
+	h2 {
+		font-size: 2vw;
+	}
+	h5 {
+		font-size: 1.8vw;
+	}
+	.jumbotron {
+		width: 60%;
+	}
+	.blockquote p {
+		font-size: 1.5vw;
+	}
+	.col-lg-6 p {
+		font-size: 1.8vw;
+	}
+	#limestone {
+		font-size: 1.3vw;
+		display: inline !important;
+		padding-left: 18px;
+		vertical-align: middle;
+	}
 }
 
 /* Extra Large devices  */
 @media (min-width: 1200px) {
-  h1 {
-    font-size: 1.75vw;
-  }
-  .nav-item a,
-  #book-now {
-    font-size: 1.1vw;
-  }
-  h2 {
-    font-size: 1.4vw;
-  }
-  h5 {
-     font-size: 1vw;
-  }
-  .col-lg-6 p {
-     padding: 8px 0;
-    font-size: 17px;
-  }
-  .jumbotron {
-    width: 40%;
-  }
-  .blockquote p {
-    font-size: 0.9vw;
-  }
-  #limestone {
-    font-size: 1.1vw;
-    display: inline !important;
-    padding-left: 150px;
-    vertical-align: middle;
-  }
-  #reviews .row {
-     height: 300px;
-  }
+	h1 {
+		font-size: 1.75vw;
+	}
+	.nav-item a,
+	#book-now {
+		font-size: 1.1vw;
+	}
+	h2 {
+		font-size: 1.4vw;
+	}
+	h5 {
+		font-size: 1vw;
+	}
+	.col-lg-6 p {
+		padding: 8px 0;
+		font-size: 17px;
+	}
+	.jumbotron {
+		width: 40%;
+	}
+	.blockquote p {
+		font-size: 0.9vw;
+	}
+	#limestone {
+		font-size: 1.1vw;
+		display: inline !important;
+		padding-left: 150px;
+		vertical-align: middle;
+	}
+	#reviews .row {
+		height: 300px;
+	}
 }
 
 /* Media query applies when Navigation Bar is collapsed (screen sizes less than 992px)  */
 @media (max-width: 992px) {
-  /* Nav item */
-  .nav-item {
-    width: 100%;
-  }
-  /* Nav item links */
-  .nav-item a {
-    padding: 20px;
-  }
-  /* Make Booking button */
-  #book-now {
-    width: 100%;
-    height: 100%;
-  }
+	/* Nav item */
+	.nav-item {
+		width: 100%;
+	}
+	/* Nav item links */
+	.nav-item a {
+		padding: 20px;
+	}
+	/* Make Booking button */
+	#book-now {
+		width: 100%;
+		height: 100%;
+	}
 }

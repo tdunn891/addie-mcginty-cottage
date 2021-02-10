@@ -5,7 +5,6 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
    <!-- Style Framework -->
    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -15,18 +14,16 @@
    <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet">
    <!-- Style Sheet -->
    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-   <!-- Favicon (Browser Tab Icon) -->
+   <!-- Favicon -->
    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
-   <!-- Title of Browser Tab -->
    <title>Addie McGinty's Cottage | Robe, South Australia</title>
 </head>
 
 <body>
 
-   <!-- Navigation Bar -->
+   <!-- Nav Bar -->
    <nav class="navbar navbar-expand-lg fixed-top navbar-dark" id="navbar">
-
       <!-- Obelisk Logo and Title -->
       <a class="navbar-brand" href="#">
          <img src="assets/img/Obelisk.png" id="obelisk-nav-logo" class="d-inline-block align-self-center"
@@ -34,63 +31,51 @@
          <h1 data-toggle="collapse" data-target=".navbar-collapse.show">Addie McGinty's Cottage</h1>
          <h3 id="limestone" data-toggle="collapse" data-target=".navbar-collapse.show">Robe, South Australia</h3>
       </a>
-
-      <!-- Toggler Icon ("Hamburger") -->
+      <!-- Hamburger Toggler -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
          <span class="navbar-toggler-icon">
          </span>
       </button>
-
       <!-- Navigation Links -->
       <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
          <ul class="navbar-nav">
             <li class="nav-item smooth-scroll active" data-toggle="collapse" data-target=".navbar-collapse.show">
                <a class="nav-link" href="#">
-                  <i class="fas fa-home">
-                  </i> THE COTTAGE
-                  <span class="sr-only">(current)
-                  </span>
+                  <i class="fas fa-home"></i> THE COTTAGE
+                  <span class="sr-only">(current)</span>
                </a>
             </li>
             <li class="nav-item smooth-scroll" data-toggle="collapse" data-target=".navbar-collapse.show">
                <a class="nav-link" href="#explore-anchor">
-                  <i class="fas fa-map-marker-alt">
-                  </i> EXPLORE
+                  <i class="fas fa-map-marker-alt"></i> EXPLORE
                </a>
             </li>
             <li class="nav-item smooth-scroll" data-toggle="collapse" data-target=".navbar-collapse.show">
                <a class="nav-link" href="#contact-anchor">
-                  <i class="fas fa-envelope">
-                  </i> CONTACT
+                  <i class="fas fa-envelope"></i> CONTACT
                </a>
             </li>
             <li class="nav-item smooth-scroll" data-toggle="collapse" data-target=".navbar-collapse.show">
                <a class="nav-link" href="#reviews-anchor">
-                  <i class="fas fa-comment-alt">
-                  </i> REVIEWS
+                  <i class="fas fa-comment-alt"></i> REVIEWS
                </a>
             </li>
             <li class="nav-item smooth-scroll" data-toggle="collapse" data-target=".navbar-collapse.show">
-
-               <!-- Primary Call to Action (CTA), the 'Make Booking' button -->
+               <!-- Call to Action: 'Make Booking' button -->
                <a class="nav-link book-now" href="https://www.bookrobeaccommodation.com.au/accommodation/3"
-                  target="_blank">
+                  target="_blank" rel="noreferrer">
                   <button class="btn btn-primary" id="book-now" type="submit">
-                     <i class="far fa-calendar-alt"></i>
-                     MAKE BOOKING
+                     <i class="far fa-calendar-alt"></i>MAKE BOOKING
                   </button>
                </a>
-
             </li>
          </ul>
       </div>
    </nav>
 
-   <!-- Sea-Green Image behind Nav Bar -->
-   <div class="container-fluid sea-green">
-
-   </div>
+   <!-- Sea-Green background image behind Nav Bar -->
+   <div class="container-fluid sea-green"></div>
 
    <!-- Offset Anchor to Ensure Nav Bar doesn't cover content -->
    <a class="anchor-offset" id="the-cottage-anchor"></a>
@@ -99,7 +84,6 @@
    <section class="container-fluid" id="the_cottage">
       <div class="row">
          <div class="col-lg-6">
-
             <!-- Carousel of Images (Inside & Outside House and Beach) -->
             <div id="carouselFade" class="carousel slide carousel-fade" data-ride="carousel">
                <div class="carousel-inner">
@@ -137,13 +121,11 @@
                         alt="Addie's Cottage Historical Sign" />
                   </div>
                </div>
-
                <!-- Previous Image Arrow -->
                <a class="carousel-control-prev" href="#carouselFade" role="button" data-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="sr-only">Previous</span>
                </a>
-
                <!-- Next Image Arrow -->
                <a class="carousel-control-next" href="#carouselFade" role="button" data-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
@@ -152,20 +134,17 @@
             </div>
          </div>
 
-         <!-- The Cottage Subsection takes up 6 columns on Large Devices and above -->
+         <!-- The Cottage Subsection -->
          <div class="col-lg-6">
             <h2><i class="fas fa-home"></i> The Cottage</h2>
-            <!-- <br> -->
             <p>Unwind at the cosy and charming Addie McGinty's, located a stone's throw away from Robe's main street
                of
                restaurants, shops, cafés and swimming beach.</p>
             <div class="row">
-
-               <!-- Feature List takes up half of the space available in the parent row on Small Devices and larger -->
+               <!-- Feature List -->
                <div class="col-sm-6">
                   <h5>Featuring:</h5>
-
-                  <!-- Unordered list with icon and feature text -->
+                  <!-- Amenities List -->
                   <ul class="amenities-list">
                      <li><i class="fas fa-bed"></i>3 Bedrooms</li>
                      <li><i class="fas fa-restroom"></i>1 Bathroom</li>
@@ -177,11 +156,10 @@
                   </ul>
                </div>
 
-               <!-- Bedding arrangement takes up half of the half of the space available in the parent row on Small Devices and above -->
+               <!-- Bedding arrangement -->
                <div class="col-sm-6">
                   <h5>Bedding Arrangement (Sleeps 6):</h5>
-
-                  <!-- 3 Boxes with Bed icons (Single of Double) to represent room configuration. -->
+                  <!-- 3 Boxes with Bed icons (Single or Double) to represent room configuration. -->
                   <ul id="sleeping-arrangements">
                      <li class="bedroom">
                         <i class="material-icons-outlined">king_bed</i> <br>
@@ -201,23 +179,20 @@
                         2 singles
                      </li>
                   </ul>
-
                </div>
             </div>
-
             <!-- Other Property Information -->
             <h5>Other Amenities:</h5>
             <p>Barbeque, Washer/Dryer, Espresso Machine, Microwave, Dishwasher, Bluetooth
                HiFi-System, Large Garden, Boat Parking.</p>
             <span id="check-in-out"><b>Check-in:</b> 2:00pm<br>
-               <b>Check-out:</b> 10:00pm</span>
+               <b>Check-out:</b> 10:00am</span>
             <span id="price">From $120/Night -
-
-               <!-- External Link to actual Season Rates -->
-               <a href="http://app4.yesbookit.com/ybi?agent=SAL&mod=anon-tariff&Code=3&anon=anon1&" target="_blank">
+               <!-- External Link: Season Rates -->
+               <a href="http://app4.yesbookit.com/ybi?agent=SAL&mod=anon-tariff&Code=3&anon=anon1&" target="_blank"
+                  rel="noreferrer">
                   Check Season Rates
                </a>
-
             </span>
          </div>
       </div>
@@ -225,52 +200,49 @@
 
    <!-- Anchor Offset to ensure Nav Bar doesn't cover content -->
    <a class="anchor-offset" id="explore-anchor"></a>
-
    <!-- Explore Section -->
    <section class="container-fluid" id="explore">
       <div class="row">
-
-         <!-- Explore subsection takes up half the available columns on Large Devices and above -->
+         <!-- Explore subsection -->
          <div class="col-lg-6">
             <h2><i class="fas fa-map-marker-alt"></i> Explore</h2>
-            <!-- <br> -->
             <p>Robe is one of southern Australia's most popular holiday destinations, attracting visitors from across
                the country and overseas because of its unspoilt scenery, old-world charm, laidback lifestyle and
                popular eateries, serving fresh local produce and premium local wines.</p>
             <div class="row">
-
-               <!-- The 4 External Links to Robe Tourism take up 1/2 of the columns available in the parent row on Small Devices and above -->
+               <!-- 4 External Links to Robe Tourism -->
                <div class="col-sm-6 text-center my-auto">
                   <ul id="explore-list">
                      <li>
-                        <a href="http://www.robe.com.au/how-to-get-here" target="_blank"><i class="fas fa-car-side"></i>
+                        <a href="http://www.robe.com.au/how-to-get-here" target="_blank" rel="noreferrer"><i
+                              class="fas fa-car-side"></i>
                            Getting Here</a><br>
                      </li>
                      <li>
                         <a href="https://static1.squarespace.com/static/54029819e4b0c1ca4c511629/t/573c0ccda3360cdc73fd88a3/1463553234015/Map_Of_Robe_SA.pdf"
-                           target="_blank"><i class="fas fa-map-marked-alt"></i> Tourist Map</a><br>
+                           target="_blank" rel="noreferrer"><i class="fas fa-map-marked-alt"></i> Tourist Map</a><br>
                      </li>
                      <li>
-                        <a href="http://www.robe.com.au/what-to-do" target="_blank"><i class="fas fa-hiking"></i> What
+                        <a href="http://www.robe.com.au/what-to-do" target="_blank" rel="noreferrer">
+                           <i class="fas fa-hiking"></i> What
                            to Do</a><br>
                      </li>
                      <li>
-                        <a href="http://www.robe.com.au/what-to-eat" target="_blank"><i class="fas fa-utensils"></i>
+                        <a href="http://www.robe.com.au/what-to-eat" target="_blank" rel="noreferrer">
+                           <i class="fas fa-utensils"></i>
                            What to Eat</a><br>
                      </li>
                   </ul>
                </div>
-
-               <!-- The 2 zoomed out maps of Robe take up 1/2 of the columns available in the parent row on Small Devices and above -->
+               <!-- 2 zoomed out maps of Robe -->
                <div class="col-sm-6 text-center my-auto">
                   <img data-src="assets/img/robe-map-cropped.png" id="south-australia" class="lazyload"
                      alt="Map of Robe, South Australia" />
                </div>
             </div>
          </div>
-         <!-- The 2nd subsection of the Explore section takes up half of the columns available in the parent row on Large Devices and above -->
+         <!-- 2nd subsection of the Explore section -->
          <div class="col-lg-6" id="google-map">
-
             <!-- Embedded Google Map of the property -->
             <iframe
                data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19065.09294343462!2d139.7597633673747!3d-37.17008325906781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ab54798b0e2c05f%3A0x88ea474ac4de0b82!2sAddie%20McGinty&#39;s%20Cottage!5e0!3m2!1sen!2sie!4v1571410650953!5m2!1sen!2sie"
@@ -283,24 +255,19 @@
 
    <!-- Anchor Offset to ensure Nav Bar doesn't cover content -->
    <a class="anchor-offset" id="contact-anchor"></a>
-
    <!-- Contact Section-->
    <section class="container-fluid parallax" id="contact">
       <div class="row">
-
          <!--  Contact section takes up all columns -->
          <div class="col-12">
             <h2><i class="fas fa-envelope"></i> Contact</h2>
-
             <!-- Jumbotron (Bootstrap Component) to encapsulate Enquiry Form -->
             <div class="jumbotron">
-
                <!-- Enquiry Form -->
                <form id="enquiry-form" onsubmit="openModal()">
                   <div class="form-group">
                      <div class="form-question">
                         <label for="NameInput"></label>
-
                         <!-- Name Input, with JavaScript to provide feedback on validity -->
                         <input type="text" class="form-control" id="NameInput" placeholder="Name" required=""
                            oninvalid="this.setCustomValidity('Please enter your name.')"
@@ -308,7 +275,6 @@
                      </div>
                      <div class="form-question">
                         <label for="EmailInput"></label>
-
                         <!-- Email Input, with JavaScript to provide feedback on validity -->
                         <input type="email" class="form-control" id="EmailInput" placeholder="Email" required=""
                            oninput="setCustomValidity('')"
@@ -316,13 +282,11 @@
                      </div>
                      <div class="form-question">
                         <label for="FormControlTextarea1"></label>
-
                         <!-- Enquiry Input (Text Area), with JavaScript to provide feedback on validity -->
                         <textarea class="form-control" id="FormControlTextarea1" rows="2" placeholder="Your Enquiry"
                            required="" oninput="setCustomValidity('')"
                            oninvalid="this.setCustomValidity('Please enter your message.')"></textarea>
                      </div>
-
                      <!-- Button to Submit Form -->
                      <button type="submit" class="btn btn-primary" id="form-submit-btn">SUBMIT</button>
                   </div>
@@ -351,7 +315,6 @@
 
    <!-- Offset Anchor to Ensure Nav Bar doesn't cover content -->
    <a class="anchor-offset" id="reviews-anchor"></a>
-
    <!-- Reviews Section -->
    <section class="container-fluid parallax" id="addie-branch">
       <div class="row">
@@ -371,7 +334,6 @@
                      </footer>
                   </blockquote>
                </div>
-
                <!-- Review 2 takes up half the available columns of parent row on Medium Devices and above  -->
                <div class="col-md-6">
                   <blockquote class="blockquote text-left">
@@ -390,15 +352,63 @@
       </div>
    </section>
 
+   <!-- Footer -->
+   <footer id=footer>
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-12 footer-content text-center">
+               <!-- Socials List -->
+               <ul class="socials-list">
+                  <li>
+                     <a href="https://www.facebook.com/robesouthaustralia" target="_blank" rel="noreferrer">
+                        <i class="fab fa-facebook fa-2x"></i>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="https://www.instagram.com/robesouthaustralia" target="_blank" rel="noreferrer">
+                        <i class="fab fa-instagram fa-2x"></i>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="http://www.robe.com.au" target="_blank" rel="noreferrer">
+                        <img
+                           data-src="https://images.squarespace-cdn.com/content/v1/54029819e4b0c1ca4c511629/1463547391895-M3Z2IRFKFND6OVNSUMT7/ke17ZwdGBToddI8pDm48kHDytfO0HjIP3KkK1uT8a5ZZw-zPPgdn4jUwVcJE1ZvWhcwhEtWJXoshNdA9f1qD7eaDBaxyzPPG4B3J3_Z93rYQdenaKM4gbNVxNGSIjCReiphUl9jXrgJ-GQUYw6fHrw/download1.png?format=750w"
+                           id="robe-com-au" class="lazyload" alt="Robe Tourism Logo" />
+                     </a>
+                  </li>
+                  <li><a href="https://www.bookrobeaccommodation.com.au/accommodation/3" target="_blank"
+                        rel="noreferrer">
+                        <img data-src="assets/img/SAL-Coastal-Holidays.jpg" class="lazyload"
+                           alt="SAL Coastal Holidays logo" id="SAL-logo" />
+                     </a>
+                  </li>
+               </ul>
+               <!-- Contact -->
+               <ul id="footer-text">
+                  <li> <a href="https://www.bookrobeaccommodation.com.au/accommodation/3" target="_blank"
+                        rel="noreferer">Robe Coastal Holidays</a>
+                  </li>
+                  <li>
+                     <a href="tel://+61887682158"><i class="fas fa-phone-alt"></i> +61 887 682 158</a>
+                  </li>
+                  <li>
+                     <br>
+                     Developed by Thomas Dunn <a href="https://github.com/tdunn891" target="_blank"
+                        rel="noreferrer"><img data-src="assets/img/github-32.png" id="github-logo" class="lazyload"
+                           alt="GitHub Logo" /></a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </footer>
+
    <!-- Scripts -->
-   <!-- jQuery for Navigation Bar expand & collapse -->
+   <!-- jQuery -->
    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
       crossorigin="anonymous"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"></script>
-   <!-- Bootstrap -->
+   <!-- Bootstrap4 -->
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"></script>
@@ -406,88 +416,8 @@
    <script src="https://kit.fontawesome.com/e1b7ca2f87.js"></script>
    <!-- LazySizes -->
    <script src="assets/js/lazysizes.min.js" async=""></script>
-
-   <!-- Change active Navigation Bar Item after click -->
-   <script>
-      var selector = '.navbar-nav li';
-      $(selector).on('click', function () {
-         $(selector).removeClass('active');
-         $(this).addClass('active');
-      });
-   </script>
-
-   <!-- Adjust Navigation Bar size and margin based on scroll location -->
-   <script>
-      window.onscroll = function () { scrollFunction() };
-      function scrollFunction() {
-         if (document.body.scrollTop > 70 || document.documentElement.scrollTop > 70) {
-            // scrolling down
-            document.getElementById("navbar").style.padding = "2px 10px";
-            document.getElementById("navbar").style.margin = "0px 0px";
-            document.getElementById("obelisk-nav-logo").style.width = "40px";
-            document.getElementById("obelisk-nav-logo").style.padding = "2px 2px";
-            document.getElementById("limestone").style.display = "none";
-         } else {
-            // when near top
-            document.getElementById("navbar").style.padding = "10px 10px";
-            document.getElementById("navbar").style.margin = "12px 0px";
-            document.getElementById("obelisk-nav-logo").style.width = "48px";
-            document.getElementById("obelisk-nav-logo").style.height = "auto";
-            document.getElementById("limestone").style.display = "block";
-         }
-      }
-   </script>
-
-   <!-- Show success Moddal on successful submission of Enquiry form -->
-   <script>
-      $('#enquiry-form').on('submit', function (e) {
-         $('#successModal').modal('show');
-         e.preventDefault();
-      });
-   </script>
-
-
-   <!-- Footer -->
-   <footer id=footer>
-      <div class="container-fluid">
-         <div class="row">
-            <div class="col-12 footer-content text-center">
-
-               <!-- Socials List -->
-               <ul class="socials-list">
-                  <li>
-                     <a href="https://www.facebook.com/oobesouthaustralia" target="_blank">
-                        <i class="fab fa-facebook fa-2x"></i>
-                     </a>
-                  </li>
-                  <li>
-                     <a href="https://www.instagram.com/robesouthaustralia" target="_blank">
-                        <i class="fab fa-instagram fa-2x"></i>
-                     </a>
-                  </li>
-                  <li>
-                     <a href="http://www.robe.com.au" target="_blank">
-                        <img
-                           data-src="https://images.squarespace-cdn.com/content/v1/54029819e4b0c1ca4c511629/1463547391895-M3Z2IRFKFND6OVNSUMT7/ke17ZwdGBToddI8pDm48kHDytfO0HjIP3KkK1uT8a5ZZw-zPPgdn4jUwVcJE1ZvWhcwhEtWJXoshNdA9f1qD7eaDBaxyzPPG4B3J3_Z93rYQdenaKM4gbNVxNGSIjCReiphUl9jXrgJ-GQUYw6fHrw/download1.png?format=750w"
-                           id="robe-com-au" class="lazyload" alt="Robe Tourism Logo" />
-                     </a>
-                  </li>
-                  <li><a href="https://www.bookrobeaccommodation.com.au/accommodation/3" target="_blank">
-                        <img data-src="assets/img/SAL-Coastal-Holidays.jpg" class="lazyload"
-                           alt="SAL Coastal Holidays logo" id="SAL-logo" />
-                     </a>
-                  </li>
-               </ul>
-
-               <!-- Contact -->
-               <span id="footer-text"><a href="https://www.bookrobeaccommodation.com.au/accommodation/3"
-                     target="_blank">Robe Coastal
-                     Holidays</a><br><a href="tel://+61887682158"><i class="fas fa-phone-alt"></i> +61 887 682 158</a>
-               </span><br><br>
-            </div>
-         </div>
-      </div>
-   </footer>
+   <!-- main.js -->
+   <script src="assets/js/main.js"></script>
 
 </body>
 
