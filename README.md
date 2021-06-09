@@ -1,5 +1,5 @@
 [1]: https://tdunn891.github.io/addie-mcginty-cottage
-[2]: https://github.com/tdunn891/addie-mcginty-cottage/blob/master/assets/addie-mcginty.gif
+[2]: https://github.com/tdunn891/addie-mcginty-cottage/blob/addie/assets/addie-mcginty.gif
 
 [![Addie McGinty GIF][2]][1]
 
