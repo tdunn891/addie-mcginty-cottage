@@ -7,13 +7,13 @@
 
 ## Project Purpose
 
-This project aims ultimately to increase annual holiday rental income of my family's beach cottage in Robe, South Australia.
+This project aims ultimately to increase annual holiday rental income of the beach cottage in Robe, South Australia.
 
 ## UX Design
 
 #### Strategy
 
-In order to set the business objectives and user needs of the site, a meeting was set up with the client, the owner of Addie McGinty's cottage, my father, Phil Dunn.
+In order to set the business objectives and user needs of the site, a meeting was set up with the client - the owner of Addie McGinty's cottage.
 
 The client gave background that the existing marketing strategy for the property was ineffective - simply a listing on the holiday rentals website. Over the previous 10 years, this strategy has yielded very low annual rental income, despite the uptick in vistor numbers to the town. The client agreed that a dedicated website (this project) would be an ideal means to take advantage of this trend. The property's existing Google Maps listing is to be populated with a link to this site.
 
